@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Contest Girl",
+    "url": "https://www.contestgirl.com/",
+    "category": "General Contests",
+    "enabled": true,
+    "description": "Popular contest aggregation site"
+  },
+  {
+    "name": "Sweeties Sweeps",
+    "url": "https://www.sweetiessweeps.com/",
+    "category": "General Sweepstakes",
+    "enabled": true,
+    "description": "Comprehensive sweepstakes listings"
+  },
+  {
+    "name": "Contest Bee",
+    "url": "https://www.contestbee.com/",
+    "category": "Various Contests",
+    "enabled": true,
+    "description": "Contest discovery platform"
+  },
+  {
+    "name": "Online Sweepstakes",
+    "url": "https://www.online-sweepstakes.com/",
+    "category": "Online Sweepstakes",
+    "enabled": true,
+    "description": "Online sweepstakes directory"
+  },
+  {
+    "name": "Sweepstakes Advantage",
+    "url": "https://www.sweepstakesadvantage.com/",
+    "category": "Sweepstakes",
+    "enabled": false,
+    "description": "Sweepstakes listings and tips"
+  },
+  {
+    "name": "Contest Watchers",
+    "url": "https://www.contestwatchers.com/",
+    "category": "Contest Monitoring",
+    "enabled": false,
+    "description": "Contest monitoring and alerts"
+  }
+]
