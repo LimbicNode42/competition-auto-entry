@@ -111,6 +111,93 @@ def is_free_competition(text: str, terms_text: str = "") -> tuple[bool, str]:
     """
     combined_text = f"{text} {terms_text}".lower()
     
+    # Check for competitions.com.au category tags that aren't actual requirements
+    # These appear as standardized site navigation/filtering elements
+    competition_category_tags = [
+        "interactive", "recurring competition", "requires a codeword", 
+        "requires a purchase", "requires registration", "simple entry", 
+        "random winner", "survey compet"
+    ]
+    
+    # Count how many category tags are present
+    category_tag_count = sum(1 for tag in competition_category_tags if tag in combined_text)
+    
+    # If we find 4+ category tags, this is likely the competitions.com.au sidebar
+    if category_tag_count >= 4:
+        # This looks like competitions.com.au category navigation, filter it out
+        filtered_text = _filter_competitions_category_tags(combined_text)
+        return _analyze_filtered_competition_text(filtered_text, "Filtered out competitions.com.au category navigation")
+    
+    # Standard analysis for other sites or competitions without category tags
+    return _analyze_competition_text_standard(combined_text)
+
+
+def _filter_competitions_category_tags(text: str) -> str:
+    """Filter out competitions.com.au category navigation tags from text."""
+    lines = text.split('\n')
+    filtered_lines = []
+    
+    # Category tags to remove (both exact matches and partial)
+    category_tags = [
+        "interactive", "recurring competition", "requires a codeword", 
+        "requires a purchase", "requires registration", "simple entry", 
+        "random winner", "survey competition", "survey compet"
+    ]
+    
+    for line in lines:
+        line_clean = line.strip().lower()
+        
+        # Skip lines that are just category tags
+        is_category_line = False
+        for tag in category_tags:
+            if line_clean == tag or line_clean.startswith(tag):
+                is_category_line = True
+                break
+        
+        # Also skip very short lines that might be navigation elements
+        if not is_category_line and len(line_clean) > 3:
+            filtered_lines.append(line)
+    
+    return '\n'.join(filtered_lines)
+
+
+def _analyze_filtered_competition_text(text: str, filter_reason: str) -> tuple[bool, str]:
+    """Analyze competition text after filtering out site navigation elements."""
+    
+    # Strong indicators that it requires payment (immediate disqualifiers)
+    strong_paid_indicators = [
+        'entry fee required', 'entry fee', 'participation fee', 'membership fee',
+        'must purchase', 'purchase required', 'subscription required',
+        'premium membership', 'paid subscription', 'credit card required',
+        'payment required', 'billing information', 'entry cost',
+        'lottery', 'lotto', 'powerball', 'mega millions',  # Lottery services
+        'syndicate', 'ticket required', 'buy ticket'
+    ]
+    
+    # Check for strong paid indicators
+    for indicator in strong_paid_indicators:
+        if indicator in text:
+            return False, f"Found strong paid indicator: '{indicator}' (after filtering: {filter_reason})"
+    
+    # Phrases that explicitly indicate free entry
+    free_phrases = [
+        'no purchase necessary', 'no purchase required', 'free to enter',
+        'free entry', 'no entry fee', 'no cost to enter', 'completely free',
+        'enter for free', 'free of charge', 'no fee required'
+    ]
+    
+    # Check for explicit free phrases
+    for phrase in free_phrases:
+        if phrase in text:
+            return True, f"Found explicit free indicator: '{phrase}' (after filtering: {filter_reason})"
+    
+    # If no strong indicators either way, default to free after filtering
+    return True, f"No payment indicators found after filtering site categories - defaulting to free"
+
+
+def _analyze_competition_text_standard(combined_text: str) -> tuple[bool, str]:
+    """Standard competition text analysis without category filtering."""
+    
     # Strong indicators that it requires payment (immediate disqualifiers)
     strong_paid_indicators = [
         'entry fee required', 'entry fee', 'participation fee', 'membership fee',
