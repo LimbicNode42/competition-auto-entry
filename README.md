@@ -11,26 +11,42 @@ An automated system for discovering and entering free competitions from aggregat
 - **Entry Tracking**: Maintains a database of entered competitions with status and deadlines
 - **Social Media Integration**: Handles competitions requiring social media follows/shares
 
-## Setup
+## Quick Start
 
-1. Install dependencies:
+1. **Install Python 3.8+** (if not already installed)
+
+2. **Create and activate virtual environment:**
 ```bash
-pip install -r requirements.txt
+python -m venv venv
+source venv/Scripts/activate  # On Windows
+# or
+source venv/bin/activate      # On Unix/macOS
 ```
 
-2. Install browser drivers for Selenium:
+3. **Install dependencies:**
 ```bash
+pip install -r requirements.txt
 playwright install
 ```
 
-3. Copy the example configuration file and fill in your details:
+4. **Setup configuration:**
 ```bash
-cp config/config.example.json config/config.json
+python setup.py
 ```
 
-4. Run the system:
+5. **Edit your personal information in `config/config.json`**
+
+6. **Test the system:**
 ```bash
-python main.py
+python test_setup.py       # Verify setup
+python example.py          # Run example demo
+python main.py --dry-run   # Test run without actual entries
+```
+
+7. **Run the system:**
+```bash
+python main.py             # Start entering competitions
+python main.py --help      # See all options
 ```
 
 ## Configuration
