@@ -24,6 +24,7 @@ from ..utils.helpers import (
     is_valid_url, normalize_url, extract_domain, clean_text,
     is_free_competition, generate_delay
 )
+from ..utils.rejection_logger import RejectionLogger
 from .competition import Competition, CompetitionForm, FormField
 from .form_detector import FormDetector
 
@@ -45,6 +46,10 @@ class CompetitionScraper:
         self.form_detector = FormDetector()
         self.session: Optional[aiohttp.ClientSession] = None
         self.driver: Optional[webdriver.Chrome] = None
+        
+        # Initialize rejection logger
+        rejection_log_path = getattr(config, 'rejection_log_path', 'data/rejection_log.json')
+        self.rejection_logger = RejectionLogger(rejection_log_path)
         
     async def __aenter__(self):
         """Async context manager entry."""
@@ -166,16 +171,46 @@ class CompetitionScraper:
         
         competitions = []
         
-        # Common patterns for competition links
-        link_selectors = [
-            'a[href*="competition"]',
-            'a[href*="contest"]',
-            'a[href*="giveaway"]',
-            'a[href*="win"]',
-            '.competition-link a',
-            '.contest-link a',
-            '.giveaway-link a'
-        ]
+        # Site-specific selectors for better accuracy
+        if 'competitions.com.au' in url:
+            # Updated selectors based on actual site structure
+            link_selectors = [
+                '.competition a',  # Main competition container
+                'a[href*="/exit/"]',  # Direct competition links
+                'a[href*="/win"]',  # Win-based URLs
+                'a[href*="/prize"]',  # Prize-based URLs
+                '.comp-item a', '.competition-link a', '.listing-item a'
+            ]
+        elif 'competitioncloud.com.au' in url:
+            # Specific selectors for Competition Cloud (needs login/JS)
+            link_selectors = [
+                '.competition-card a', '.comp-listing a', '.entry-link a',
+                'a[href*="/comp/"]', 'a[href*="/competition/"]',
+                'a[href*="/entry/"]', 'a[href*="/enter/"]'
+            ]
+        elif 'aussiecomps.com' in url:
+            # Specific selectors for AussieComps
+            link_selectors = [
+                '.comp-entry a', '.competition-item a', '.contest-link a',
+                'a[href*="/comp/"]', 'a[href*="/contest/"]',
+                'a[href*="/ps/"]',  # Promotional/sponsored links
+                'a[href*="/entry/"]'
+            ]
+        else:
+            # Generic fallback selectors
+            link_selectors = [
+                '.competition a',  # Common container
+                'a[href*="/exit/"]',  # Common pattern for competition exits
+                'a[href*="/entry/"]',  # Entry links
+                'a[href*="/enter/"]',  # Enter links
+                'a[href*="competition"]',
+                'a[href*="contest"]',
+                'a[href*="giveaway"]',
+                'a[href*="win"]',
+                '.competition-link a',
+                '.contest-link a',
+                '.giveaway-link a'
+            ]
         
         competition_links = set()
         
@@ -186,7 +221,22 @@ class CompetitionScraper:
                 if href:
                     full_url = normalize_url(href, url)
                     if is_valid_url(full_url):
-                        competition_links.add(full_url)
+                        # Additional filtering for obvious non-competitions
+                        if not any(skip in full_url.lower() for skip in [
+                            'mailto:', 'tel:', 'javascript:', '#',
+                            '/terms', '/privacy', '/contact', '/about',
+                            '/faq', '/help', '/login', '/register',
+                            '.pdf', '.jpg', '.png', '.gif', '.css', '.js'
+                        ]):
+                            # Additional check for competition-like URLs
+                            if any(indicator in full_url.lower() for indicator in [
+                                '/exit/', '/entry/', '/enter/', '/win', '/prize',
+                                '/competition', '/contest', '/giveaway', '/comp/',
+                                '/c/', '/ps/'  # promotional/sponsored
+                            ]) or any(indicator in link.get_text().lower() for indicator in [
+                                'win', 'prize', 'competition', 'contest', 'enter', 'giveaway'
+                            ]):
+                                competition_links.add(full_url)
         
         logger.info(f"Found {len(competition_links)} potential competition links")
         
@@ -219,6 +269,16 @@ class CompetitionScraper:
         if not soup:
             return None
         
+        # Skip obvious non-competition pages
+        non_competition_indicators = [
+            '/blog/', '/terms', '/privacy', '/contact', '/about',
+            '/add-a-competition', '/promote', '/advertise', '/register'
+        ]
+        
+        if any(indicator in url.lower() for indicator in non_competition_indicators):
+            logger.debug(f"Skipping non-competition page: {url}")
+            return None
+        
         # Extract title
         title_selectors = ['h1', 'h2', '.title', '.competition-title', 'title']
         title = ""
@@ -231,6 +291,19 @@ class CompetitionScraper:
         if not title:
             logger.warning(f"No title found for competition: {url}")
             return None
+        
+        # Skip titles that don't look like competitions
+        non_competition_titles = [
+            'register', 'sign up', 'login', 'blog', 'how to', 'about',
+            'contact', 'terms', 'privacy', 'add a competition', 'promote'
+        ]
+        
+        title_lower = title.lower()
+        if any(indicator in title_lower for indicator in non_competition_titles):
+            # Exception: titles with "free" in them might be legitimate
+            if 'free' not in title_lower and 'win' not in title_lower:
+                logger.debug(f"Skipping non-competition title: {title}")
+                return None
         
         # Extract description
         description_selectors = [
@@ -245,17 +318,32 @@ class CompetitionScraper:
                 break
         
         # Check if competition is free
-        page_text = soup.get_text().lower()
+        page_text = soup.get_text()
         terms_text = ""
         terms_link = soup.select_one('a[href*="terms"], a[href*="condition"]')
         if terms_link:
             terms_url = normalize_url(terms_link.get('href'), url)
             terms_soup = await self.fetch_page(terms_url)
             if terms_soup:
-                terms_text = terms_soup.get_text().lower()
+                terms_text = terms_soup.get_text()
         
-        if not is_free_competition(page_text, terms_text):
+        is_free, detection_reason = is_free_competition(page_text.lower(), terms_text.lower())
+        logger.debug(f"Free competition check for '{title}': {is_free} - {detection_reason}")
+        
+        if not is_free:
             logger.info(f"Competition appears to require payment: {title}")
+            logger.debug(f"Detection reason: {detection_reason}")
+            
+            # Log the rejection for review
+            self.rejection_logger.log_paid_detection_rejection(
+                url=url,
+                title=title,
+                detection_reason=detection_reason,
+                page_text=page_text,
+                terms_text=terms_text,
+                source=source
+            )
+            
             return None
         
         # Extract deadline

@@ -1,0 +1,308 @@
+[
+  {
+    "timestamp": "2025-06-29T22:04:30.353753",
+    "url": "https://www.competitions.com.au/win-collectors-coin-prizes/64531/",
+    "title": "Win 1 of 3 Collectors Coin Prizes",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 6210,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:04:34.496832",
+    "url": "https://www.competitions.com.au/win-2-tickets-hunter-valley-wine-beer-festival/64528/",
+    "title": "Win 2 Tickets to Hunter Valley Wine & Beer Festival",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5809,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:04:39.246805",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 13452,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:04:43.771835",
+    "url": "https://www.competitions.com.au/win-premium-tickets-nbl26-game/64530/",
+    "title": "Win Premium Tickets to NBL26 Game",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 6081,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:04:48.765303",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...motion closes on 23/06/25 at 11:59 pm AEST.\rHow can one enter the promotion? To enter, participants must purchase Matso's products and complete one of the following entry methods during the promotiona...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 83290,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:04:58.054375",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33910,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:01.977925",
+    "url": "https://www.competitions.com.au/win-mothers-choice-acacia-nursery-bundles/64535/",
+    "title": "Win 1 of 3 Mother's Choice Acacia Nursery Bundles",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7100,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:08.741094",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
+    "title": "Registration LottoGo.com",
+    "reason": "Found strong paid indicator: 'lotto'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 74,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:12.451282",
+    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
+    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "....5-acre hinterland estate, complete with panoramic views and sophisticated design. Mater Prize Home lottery No. 320 is giving you the chance to win this dream home as part of a $5,028,006 prize packag...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4169,
+      "terms_text_length": 33916,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:16.576776",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Registration LottoGo.com",
+    "reason": "Found strong paid indicator: 'lotto'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 74,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:19.654755",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Registration LottoGo.com",
+    "reason": "Found strong paid indicator: 'lotto'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 74,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:24.128865",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 13496,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:31.565324",
+    "url": "https://www.competitions.com.au/exit/win-dubai-fashion-makeover-trip/64273/",
+    "title": "Join MCR Club For Free & Claim your FREE Entry",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": " \n Win a Free $30K Dubai Fashion Trip | Flights, Hotel, Cash & More!         \nCharity RafflesFree EntryWinnersFAQMCR ClubLoginCart\n\n \n0$0.00No products in the cart.Charity RafflesFree EntryWinnersFAQMCR Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.\n\n\nLIMITED TIME OFFER – WIN A DUBAI TRIP FOR 2\nLIMITED TIME OFFER – WIN A DUBAI TRIP FOR 2\nLIMITED TIME OFFER – WIN A DUBAI TRIP FOR 2\nLIMITED TIME OFFER – WIN A DUBAI TRIP FOR 2\nA fashion makeover in Dubai! Look ",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4092,
+      "terms_text_length": 7458,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:36.595443",
+    "url": "https://www.competitions.com.au/win-rydges-getaway/64532/",
+    "title": "Win a Rydges Getaway",
+    "reason": "Found strong paid indicator: 'must purchase'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...rlsberg Promotion competition?To enter the Ritchies x Jarlsberg Promotion competition, participants must purchase two Jarlsberg Cheese products in one transaction at a participating venue and retain t...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 6918,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:41.930409",
+    "url": "https://www.competitions.com.au/win-ben-jerrys-freezers/64533/",
+    "title": "Win 1 of 3 Ben & Jerry's Freezers",
+    "reason": "Found strong paid indicator: 'must purchase'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Ben & Jerry's Promotion competition?To enter the Ben & Jerry's Promotion competition, participants must purchase any two Ben & Jerry's products at any Ritchies Supermarket during the promotional peri...",
+    "source": "Aggregator 3",
+    "reviewed": true,
+    "feedback": "correct",
+    "additional_data": {
+      "page_text_length": 5977,
+      "terms_text_length": 11236,
+      "has_terms": true
+    },
+    "review_timestamp": "2025-06-29T22:08:19.417624"
+  },
+  {
+    "timestamp": "2025-06-29T22:05:46.760714",
+    "url": "https://www.competitions.com.au/win-2-nights-accommodation-brisbane/64527/",
+    "title": "Win 2 Nights Accommodation in Brisbane",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": true,
+    "feedback": "needs_improvement",
+    "additional_data": {
+      "page_text_length": 6935,
+      "terms_text_length": 11236,
+      "has_terms": true
+    },
+    "review_timestamp": "2025-06-29T22:08:29.753574"
+  },
+  {
+    "timestamp": "2025-06-29T22:05:52.356319",
+    "url": "https://www.competitions.com.au/win-wild-daisy-collective-surprise-pack/64529/",
+    "title": "Win a Wild Daisy Collective Surprise Pack",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: '\n\n\n\n\n\n\n\ninteractive \n\n\n\n\n\n\n\n\nrecurring competition \n\n\n\n\n\n\n\n\nrequires a codeword \n\n\n\n\n\n\n\n\nrequires a ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n\nInteractive \n\n\n\n\n\n\n\n\nRecurring Competition \n\n\n\n\n\n\n\n\nRequires a Codeword \n\n\n\n\n\n\n\n\nRequires a Purchase \n\n\n\n\n\n\n\n\nRequires Registration \n\n\n\n\n\n\n\n\nSimple Entry / Random Winner \n\n\n\n\n\n\n\n\nSurvey Compet...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5325,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:05:56.754344",
+    "url": "https://www.competitions.com.au/win-jj-rodeos-prize-pack/64534/",
+    "title": "Win a J&J Rodeo's Prize Pack",
+    "reason": "Found strong paid indicator: 'must purchase'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...away for You and a Mate?To enter The Ultimate J & J Rodeo Giveaway for You and a Mate, participants must purchase tickets to Casino Buck and Trucks, like the competition post, share the post to their ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 6177,
+      "terms_text_length": 11236,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-06-29T22:06:01.377347",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
+    "title": "Registration LottoGo.com",
+    "reason": "Found strong paid indicator: 'lotto'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 74,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  }
+]

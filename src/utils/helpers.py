@@ -98,7 +98,7 @@ def extract_text_from_element(element) -> str:
     return clean_text(element.get_text())
 
 
-def is_free_competition(text: str, terms_text: str = "") -> bool:
+def is_free_competition(text: str, terms_text: str = "") -> tuple[bool, str]:
     """
     Determine if a competition is free to enter based on text analysis.
     
@@ -107,36 +107,89 @@ def is_free_competition(text: str, terms_text: str = "") -> bool:
         terms_text: Terms and conditions text
         
     Returns:
-        True if competition appears to be free, False otherwise
+        Tuple of (is_free: bool, reason: str) - reason explains why it was rejected
     """
     combined_text = f"{text} {terms_text}".lower()
     
-    # Keywords that indicate paid entry
-    paid_keywords = [
-        'purchase', 'buy', 'payment', 'fee', 'cost', 'price',
-        'subscription', 'premium', 'paid', '$', '£', '€',
-        'credit card', 'billing', 'charge'
+    # Strong indicators that it requires payment (immediate disqualifiers)
+    strong_paid_indicators = [
+        'entry fee required', 'entry fee', 'participation fee', 'membership fee',
+        'must purchase', 'purchase required', 'subscription required',
+        'premium membership', 'paid subscription', 'credit card required',
+        'payment required', 'billing information', 'entry cost',
+        'lottery', 'lotto', 'powerball', 'mega millions',  # Lottery services
+        'syndicate', 'ticket required', 'buy ticket'
     ]
     
-    # Keywords that indicate free entry
-    free_keywords = [
-        'free', 'no purchase', 'no fee', 'no cost',
-        'free to enter', 'free entry', 'no charge'
+    # Check for strong paid indicators first
+    for indicator in strong_paid_indicators:
+        if indicator in combined_text:
+            return False, f"Found strong paid indicator: '{indicator}'"
+    
+    # Phrases that explicitly indicate free entry
+    free_phrases = [
+        'no purchase necessary', 'no purchase required', 'free to enter',
+        'free entry', 'no entry fee', 'no cost to enter', 'completely free',
+        'enter for free', 'free of charge', 'no fee required'
     ]
     
-    # Check for paid indicators
-    for keyword in paid_keywords:
+    # Check for explicit free phrases
+    for phrase in free_phrases:
+        if phrase in combined_text:
+            return True, f"Found explicit free indicator: '{phrase}'"
+    
+    # Check for currency symbols in suspicious contexts
+    currency_patterns = ['$', '£', '€', 'aud', 'usd', 'gbp', 'eur']
+    for currency in currency_patterns:
+        if currency in combined_text:
+            # Check if it's in context of requiring payment
+            currency_pos = combined_text.find(currency)
+            context = combined_text[max(0, currency_pos - 100):currency_pos + 100]
+            
+            # Bad contexts that suggest payment required
+            bad_contexts = [
+                'entry', 'fee', 'cost', 'pay', 'charge', 'membership',
+                'subscription', 'required', 'must'
+            ]
+            
+            # Good contexts that suggest it's about prizes
+            good_contexts = [
+                'win', 'prize', 'worth', 'value', 'cash', 'voucher',
+                'gift', 'reward', 'jackpot'
+            ]
+            
+            bad_score = sum(1 for bad in bad_contexts if bad in context)
+            good_score = sum(1 for good in good_contexts if good in context)
+            
+            # If more bad contexts than good, likely requires payment
+            if bad_score > good_score and bad_score > 1:
+                return False, f"Currency '{currency}' found in payment context (bad_score: {bad_score}, good_score: {good_score}). Context: '{context[:100]}...'"
+    
+    # Weaker paid indicators that need more context
+    weak_paid_keywords = ['purchase', 'buy', 'subscription', 'premium']
+    
+    for keyword in weak_paid_keywords:
         if keyword in combined_text:
-            # Check if it's in context of "no purchase necessary" etc.
-            context = combined_text[max(0, combined_text.find(keyword) - 50):
-                                  combined_text.find(keyword) + 50]
-            if not any(free_word in context for free_word in ['no ', 'free', 'without']):
-                return False
+            # Get larger context window
+            keyword_pos = combined_text.find(keyword)
+            context = combined_text[max(0, keyword_pos - 100):keyword_pos + 100]
+            
+            # Negating words that make it free
+            negators = ['no ', 'without ', 'free ', 'not required', 'optional']
+            if any(negator in context for negator in negators):
+                continue  # This usage is fine
+            
+            # Check if it's about entry requirements vs prizes
+            entry_related = any(word in context for word in [
+                'enter', 'entry', 'participate', 'join', 'must', 'required'
+            ])
+            
+            if entry_related:
+                return False, f"Found weak paid indicator '{keyword}' in entry context. Context: '{context[:100]}...'"
     
-    # Check for free indicators
-    free_score = sum(1 for keyword in free_keywords if keyword in combined_text)
-    
-    return free_score > 0
+    # If we get here, default to allowing the competition
+    # (Most legitimate competitions don't explicitly state "free" everywhere)
+    return True, "No payment indicators found - defaulting to free"
 
 
 def generate_delay(min_delay: float = 1.0, max_delay: float = 3.0) -> float:
