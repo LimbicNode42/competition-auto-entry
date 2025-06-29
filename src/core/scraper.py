@@ -48,9 +48,9 @@ class CompetitionScraper:
         self.session: Optional[aiohttp.ClientSession] = None
         self.driver: Optional[webdriver.Chrome] = None
         
-        # Initialize rejection logger
+        # Initialize rejection logger (clear on each run for fresh feedback)
         rejection_log_path = getattr(config, 'rejection_log_path', 'data/rejection_log.json')
-        self.rejection_logger = RejectionLogger(rejection_log_path)
+        self.rejection_logger = RejectionLogger(rejection_log_path, clear_on_init=True)
         
         # Google auth handler (initialized when driver is created)
         self.google_auth = None
