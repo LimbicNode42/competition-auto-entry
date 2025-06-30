@@ -18,18 +18,19 @@ class RejectionLogger:
     Logs detailed information about why competitions are rejected.
     """
     
-    def __init__(self, log_file_path: str):
+    def __init__(self, log_file_path: str, clear_on_init: bool = False):
         """
         Initialize the rejection logger.
         
         Args:
             log_file_path: Path to the JSON log file
+            clear_on_init: Whether to clear the log file on initialization
         """
         self.log_file_path = Path(log_file_path)
         self.log_file_path.parent.mkdir(parents=True, exist_ok=True)
         
-        # Initialize log file if it doesn't exist
-        if not self.log_file_path.exists():
+        # Initialize or clear log file
+        if clear_on_init or not self.log_file_path.exists():
             self._write_log_data([])
     
     def log_rejection(
@@ -206,6 +207,16 @@ class RejectionLogger:
         except Exception as e:
             logger.error(f"Error marking {url} as reviewed: {e}")
             return False
+    
+    def clear_log(self) -> None:
+        """
+        Clear all entries from the rejection log.
+        """
+        try:
+            self._write_log_data([])
+            logger.info("Rejection log cleared")
+        except Exception as e:
+            logger.error(f"Error clearing rejection log: {e}")
     
     def _read_log_data(self) -> list:
         """Read the log data from file."""

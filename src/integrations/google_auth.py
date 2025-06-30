@@ -34,9 +34,29 @@ class GoogleAuthHandler:
         """
         self.config = config
         self.driver = driver
-        self.google_email = getattr(config, 'google_auth', {}).get('email', '')
-        self.auto_login = getattr(config, 'google_auth', {}).get('auto_login', True)
-        self.save_session = getattr(config, 'google_auth', {}).get('save_session', True)
+        
+        # Try to get google_auth config if available
+        try:
+            google_auth_config = getattr(config, 'google_auth', {})
+            if hasattr(google_auth_config, 'email'):
+                self.google_email = google_auth_config.email
+            else:
+                self.google_email = google_auth_config.get('email', '') if isinstance(google_auth_config, dict) else ''
+            
+            if hasattr(google_auth_config, 'auto_login'):
+                self.auto_login = google_auth_config.auto_login
+            else:
+                self.auto_login = google_auth_config.get('auto_login', True) if isinstance(google_auth_config, dict) else True
+            
+            if hasattr(google_auth_config, 'save_session'):
+                self.save_session = google_auth_config.save_session
+            else:
+                self.save_session = google_auth_config.get('save_session', True) if isinstance(google_auth_config, dict) else True
+        except Exception as e:
+            logger.warning(f"Could not load google_auth config: {e}")
+            self.google_email = ''
+            self.auto_login = True
+            self.save_session = True
         
         # Session storage paths
         self.session_dir = Path("data/sessions")

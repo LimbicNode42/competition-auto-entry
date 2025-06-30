@@ -92,6 +92,20 @@ class Competition:
         """Check if competition deadline has passed."""
         if not self.deadline:
             return False
+        
+        # Handle case where deadline might be a string
+        if isinstance(self.deadline, str):
+            try:
+                # Try to parse string deadline
+                from ..utils.helpers import parse_deadline
+                deadline_dt = parse_deadline(self.deadline)
+                if deadline_dt:
+                    return datetime.now() > deadline_dt
+                else:
+                    return False  # Can't parse deadline, assume not expired
+            except Exception:
+                return False  # Can't parse deadline, assume not expired
+        
         return datetime.now() > self.deadline
     
     def is_eligible(self) -> bool:

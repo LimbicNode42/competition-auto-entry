@@ -165,7 +165,8 @@ class CompetitionScraper:
     async def discover_competitions_from_page(
         self, 
         url: str, 
-        source_name: str
+        source_name: str,
+        use_pagination: bool = True
     ) -> List[Competition]:
         """
         Discover competitions from a single aggregator page.
@@ -173,6 +174,7 @@ class CompetitionScraper:
         Args:
             url: Aggregator page URL
             source_name: Name of the source website
+            use_pagination: Whether to use pagination and load more handling
             
         Returns:
             List of discovered competitions
@@ -186,12 +188,16 @@ class CompetitionScraper:
             logger.error(f"Authentication failed for {url}, skipping")
             return []
         
-        # For sites requiring site-level auth, use Selenium
-        # For competition-level auth sites, use aiohttp for aggregator pages
-        if auth_type == 'site_level':
-            return await self._discover_competitions_with_selenium(url, source_name)
+        # Use pagination handling for comprehensive discovery
+        if use_pagination:
+            return await self._handle_pagination_and_load_more(url, source_name)
         else:
-            return await self._discover_competitions_with_aiohttp(url, source_name)
+            # For sites requiring site-level auth, use Selenium
+            # For competition-level auth sites, use aiohttp for aggregator pages
+            if auth_type == 'site_level':
+                return await self._discover_competitions_with_selenium(url, source_name)
+            else:
+                return await self._discover_competitions_with_aiohttp(url, source_name)
     
     async def _discover_competitions_with_aiohttp(self, url: str, source_name: str) -> List[Competition]:
         """Discover competitions using aiohttp (for sites not requiring auth)."""
@@ -296,8 +302,8 @@ class CompetitionScraper:
         
         logger.info(f"Found {len(competition_links)} potential competition links")
         
-        # Process each competition link
-        for comp_url in list(competition_links)[:20]:  # Limit to prevent overload
+        # Process each competition link (increased limit for pagination)
+        for comp_url in list(competition_links)[:100]:  # Increased from 20 to 100
             try:
                 competition = await self._analyze_competition_page(comp_url, source_name)
                 if competition:
@@ -806,3 +812,226 @@ class CompetitionScraper:
         else:
             # No auth required
             return await self.fetch_page(url)
+    
+    async def _handle_pagination_and_load_more(self, url: str, source_name: str) -> List[Competition]:
+        """
+        Handle pagination and 'show more' buttons for comprehensive competition discovery.
+        
+        Args:
+            url: Base URL of the aggregator site
+            source_name: Name of the source for logging
+            
+        Returns:
+            List of all competitions found across all pages
+        """
+        domain = urlparse(url).netloc.lower()
+        
+        if 'competitioncloud.com.au' in domain:
+            return await self._handle_competitioncloud_loading(url, source_name)
+        elif 'aussiecomps.com' in domain:
+            return await self._handle_aussiecomps_pagination(url, source_name)
+        elif 'competitions.com.au' in domain:
+            return await self._handle_competitions_au_pagination(url, source_name)
+        else:
+            # Fallback to single page processing
+            return await self._discover_competitions_with_aiohttp(url, source_name)
+
+    async def _handle_competitioncloud_loading(self, url: str, source_name: str) -> List[Competition]:
+        """Handle CompetitionCloud's dynamic loading with 'Show More' buttons."""
+        if not self.driver:
+            self._get_webdriver()
+        
+        logger.info(f"Handling CompetitionCloud pagination/loading for {url}")
+        
+        try:
+            self.driver.get(url)
+            time.sleep(3)  # Wait for initial load
+            
+            # Look for and click "Show More" or "Load More" buttons
+            show_more_selectors = [
+                "//button[contains(text(), 'Show More')]",
+                "//button[contains(text(), 'Load More')]",
+                "//a[contains(text(), 'Show More')]", 
+                "//a[contains(text(), 'Load More')]",
+                "//button[contains(@class, 'show-more')]",
+                "//button[contains(@class, 'load-more')]",
+                "//button[@data-action='load-more']",
+                "//div[contains(@class, 'load-more')]//button",
+                "//div[contains(@class, 'show-more')]//button"
+            ]
+            
+            clicks_attempted = 0
+            max_clicks = 15  # Prevent infinite loops
+            
+            while clicks_attempted < max_clicks:
+                button_found = False
+                
+                for selector in show_more_selectors:
+                    try:
+                        buttons = self.driver.find_elements(By.XPATH, selector)
+                        
+                        for button in buttons:
+                            if button.is_displayed() and button.is_enabled():
+                                logger.info(f"Clicking show more button: {selector}")
+                                # Scroll into view first
+                                self.driver.execute_script("arguments[0].scrollIntoView();", button)
+                                time.sleep(1)
+                                # Use JavaScript click to avoid interception
+                                self.driver.execute_script("arguments[0].click();", button)
+                                button_found = True
+                                clicks_attempted += 1
+                                time.sleep(3)  # Wait for content to load
+                                break
+                        
+                        if button_found:
+                            break
+                    
+                    except Exception as e:
+                        logger.debug(f"No button found for selector {selector}: {e}")
+                        continue
+                
+                if not button_found:
+                    logger.info("No more 'Show More' buttons found")
+                    break
+            
+            # Now extract all competitions from the fully loaded page
+            page_source = self.driver.page_source
+            soup = BeautifulSoup(page_source, 'html.parser')
+            return await self._process_competition_links(url, source_name, soup)
+            
+        except Exception as e:
+            logger.error(f"Error handling CompetitionCloud loading: {e}")
+            return []
+
+    async def _handle_aussiecomps_pagination(self, url: str, source_name: str) -> List[Competition]:
+        """Handle AussieComps pagination through multiple pages."""
+        all_competitions = []
+        base_url = url.rstrip('/')
+        
+        page = 1
+        max_pages = 20  # Reasonable limit
+        
+        logger.info(f"Handling AussieComps pagination for {url}")
+        
+        while page <= max_pages:
+            try:
+                # Try common pagination URL patterns
+                page_urls = [
+                    f"{base_url}/page/{page}",
+                    f"{base_url}?page={page}",
+                    f"{base_url}?p={page}",
+                    f"{base_url}/competitions/page/{page}",
+                    f"{base_url}/contests/page/{page}",
+                    f"{base_url}/page{page}.html"
+                ]
+                
+                page_found = False
+                
+                for page_url in page_urls:
+                    try:
+                        soup = await self.fetch_page(page_url)
+                        if soup and self._has_competitions_on_page(soup):
+                            logger.info(f"Processing AussieComps page {page}: {page_url}")
+                            competitions = await self._process_competition_links(page_url, source_name, soup)
+                            if competitions:  # Only continue if we found competitions
+                                all_competitions.extend(competitions)
+                                page_found = True
+                                break
+                    except Exception as e:
+                        logger.debug(f"Failed to fetch AussieComps page {page_url}: {e}")
+                        continue
+                
+                if not page_found:
+                    logger.info(f"No more pages found at page {page}")
+                    break
+                
+                page += 1
+                await asyncio.sleep(1)  # Be respectful with delays
+                
+            except Exception as e:
+                logger.error(f"Error processing AussieComps page {page}: {e}")
+                break
+        
+        logger.info(f"Found {len(all_competitions)} total competitions across {page-1} AussieComps pages")
+        return all_competitions
+
+    async def _handle_competitions_au_pagination(self, url: str, source_name: str) -> List[Competition]:
+        """Handle Competitions.com.au pagination and category browsing."""
+        all_competitions = []
+        base_url = url.rstrip('/')
+        
+        logger.info(f"Handling Competitions.com.au pagination for {url}")
+        
+        # First, get competitions from main page
+        soup = await self.fetch_page(url)
+        if soup:
+            competitions = await self._process_competition_links(url, source_name, soup)
+            all_competitions.extend(competitions)
+        
+        # Then try pagination
+        page = 2  # Start from page 2 since we got page 1 above
+        max_pages = 15
+        
+        while page <= max_pages:
+            try:
+                # Common pagination patterns for competitions.com.au
+                page_urls = [
+                    f"{base_url}/page/{page}/",
+                    f"{base_url}?page={page}",
+                    f"{base_url}/competitions/page/{page}/",
+                    f"{base_url}/page{page}/",
+                    f"{base_url}/?paged={page}"
+                ]
+                
+                page_found = False
+                
+                for page_url in page_urls:
+                    try:
+                        soup = await self.fetch_page(page_url)
+                        if soup and self._has_competitions_on_page(soup):
+                            logger.info(f"Processing Competitions.com.au page {page}: {page_url}")
+                            competitions = await self._process_competition_links(page_url, source_name, soup)
+                            if competitions:  # Only continue if we found competitions
+                                all_competitions.extend(competitions)
+                                page_found = True
+                                break
+                    except Exception as e:
+                        logger.debug(f"Failed to fetch Competitions.com.au page {page_url}: {e}")
+                        continue
+                
+                if not page_found:
+                    logger.info(f"No more valid pages found at page {page}")
+                    break
+                
+                page += 1
+                await asyncio.sleep(1)  # Be respectful
+                
+            except Exception as e:
+                logger.error(f"Error processing Competitions.com.au page {page}: {e}")
+                break
+        
+        logger.info(f"Found {len(all_competitions)} total competitions across {page-1} Competitions.com.au pages")
+        return all_competitions
+
+    def _has_competitions_on_page(self, soup) -> bool:
+        """Check if a page contains competitions."""
+        if not soup:
+            return False
+        
+        # Look for competition indicators
+        competition_indicators = [
+            '.competition', '.contest', '.giveaway', '.entry',
+            '[href*="/win"]', '[href*="/entry"]', '[href*="/exit"]',
+            '[href*="competition"]', '[href*="contest"]'
+        ]
+        
+        for indicator in competition_indicators:
+            if soup.select(indicator):
+                return True
+        
+        # Check text content for competition keywords
+        page_text = soup.get_text().lower()
+        if any(keyword in page_text for keyword in ['win', 'prize', 'competition', 'contest', 'enter', 'giveaway']):
+            return True
+        
+        return False

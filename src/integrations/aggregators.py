@@ -6,7 +6,7 @@ import asyncio
 from typing import List, Dict, Any
 import logging
 
-from ..core.scraper import CompetitionScraper
+from ..core.modular_scraper import CompetitionScraper
 from ..core.competition import Competition
 from ..utils.config import AppConfig
 
