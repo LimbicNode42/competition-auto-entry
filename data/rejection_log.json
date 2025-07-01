@@ -1,12 +1,76 @@
 [
   {
-    "timestamp": "2025-06-30T21:52:24.985496",
+    "timestamp": "2025-07-01T21:37:25.794061",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7412,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:37:36.527756",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
+    "title": "Join LottoGo.com.au For FREE!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 22mins 23secPower Draw U...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5609,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:37:52.893521",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5576,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:37:58.715103",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$13,500\n\n\nAdded Today\n\n\n\n\n\n\n\n Win a Japan Trip for Two, with ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33622,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:38:11.377522",
     "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
     "title": "Win a $28,500 Hyundai Venue!",
     "reason": "Found strong paid indicator: 'buy ticket'",
     "reason_type": "paid_detection",
     "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -16,45 +80,61 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:52:36.032125",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
+    "timestamp": "2025-07-01T21:38:13.989027",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5578,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:52:40.119336",
-    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
-    "title": "WIN this $450K first prize package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 12 Days22 Hrs2 Min56 SecPrize DetailsWinners9Built to Br...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4404,
+      "page_text_length": 36526,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:52:47.335370",
+    "timestamp": "2025-07-01T21:38:16.462549",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7462,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:38:22.247561",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:38:27.136031",
     "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
     "title": "About The Cause",
     "reason": "Found strong paid indicator: 'buy ticket'",
     "reason_type": "paid_detection",
     "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -64,45 +144,13 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:52:53.327387",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
-    "title": "Join LottoGo.com.au For FREE!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 12hrs 07mins 06secPower ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5620,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:52:59.275130",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5576,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:53:12.909505",
+    "timestamp": "2025-07-01T21:38:32.773294",
     "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -112,93 +160,13 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:53:15.671712",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31233,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:53:37.013179",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterland Prize Package \n\n Mater Home Lottery\n\n               \n                    Ends Aug 20 \nCharity\nHouse\nRequires a Purchase\n\n\n\n\n\n\n\n\n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13184,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:53:42.398014",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days22 Hrs1 Min46 SecPrize DetailsWinners2Live the ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4267,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:53:47.385435",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13205,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:53:49.917070",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32364,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:54:05.113033",
+    "timestamp": "2025-07-01T21:38:41.440648",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -208,61 +176,61 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:09.029692",
+    "timestamp": "2025-07-01T21:38:45.968087",
     "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
     "title": "WIN this $450K first prize package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 12 Days22 Hrs1 Min27 SecPrize DetailsWinners9Built to Br...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs16 Min50 SecPrize DetailsWinners9Built to B...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 4405,
+      "page_text_length": 4404,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:17.071354",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
+    "timestamp": "2025-07-01T21:38:52.006103",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5468,
+      "page_text_length": 7485,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:22.125727",
+    "timestamp": "2025-07-01T21:38:59.219282",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 12hrs 05mins 38secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 21mins 00secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5019,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:26.457851",
+    "timestamp": "2025-07-01T21:39:13.035177",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -272,189 +240,269 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:36.199339",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:54:38.888028",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
+    "timestamp": "2025-07-01T21:39:17.879150",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 31212,
+      "page_text_length": 33665,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:54:50.473864",
+    "timestamp": "2025-07-01T21:39:27.763283",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:30.488016",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36558,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:35.588054",
+    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
+    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 49 Days22 Hrs15 Min53 SecPrize DetailsWinners2Live the...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4269,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:37.939487",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterland Prize Package \n\n Mater Home Lottery\n\n               \n                    Ends Aug 20 \nCharity\nHouse\nRequires a Purchase\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7436,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:42.758500",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:47.566613",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5468,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:52.912721",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:39:59.589406",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:40:02.105235",
+    "url": "https://www.aussiecomps.com/index.php?id=24499&cat_id=0&p=&search=",
+    "title": "AussieComps.com - NEW Australian Competitions & Giveaways Listed Daily!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...y 2025.\n\r\nDraw Date:\r\nThursday, 31 July 2025.\n\r\nWinner Notification:\r\nFriday, 1 August 2025.\n\r\nThis lottery game promotes My Charity Raffle and its business of promoting charity raffle sales and phila...",
+    "source": "Aggregator 2",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 3534,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:40:14.905522",
     "url": "https://www.competitions.com.au/win-vip-tickets-2025-abu-dhabi-grand-prix/63491/",
     "title": "Win VIP Tickets to the 2025 ABU Dhabi Grand PRIX",
     "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
     "page_text_sample": "...N YOUR SEAT - 2025\" competition?To enter the \"DEWALT WIN YOUR SEAT - 2025\" competition, individuals must purchase any DEWALT product from a Participating Store during the Promotional Period and then v...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 7051,
+      "page_text_length": 6952,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:55:06.042274",
+    "timestamp": "2025-07-01T21:40:15.945359",
+    "url": "https://www.aussiecomps.com/index.php?id=24724&cat_id=0&p=2&search=",
+    "title": "AussieComps.com - NEW Australian Competitions & Giveaways Listed Daily!",
+    "reason": "Found weak paid indicator 'premium' in entry context. Context: ' binoculars. valued at $219.95.\r\n• phillip island nature parks 3 park pass, including access to the ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... binoculars. Valued at $219.95.\r\n• Phillip Island Nature Parks 3 Park Pass, including access to the Premium Penguins experience. Valued at $200.\n\r\nHow to enter:\n\r\nTell us \"What’s your ultimate Phillip...",
+    "source": "Aggregator 2",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 3067,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:40:18.712170",
     "url": "https://www.competitions.com.au/tag/category/prize-competitions/",
     "title": "Prize competitions",
-    "reason": "Found strong paid indicator: 'lotto' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...Pool\nRecently Added \nSort: Recently Added \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n Win $1000 a day for 20 years*\n\n LottoGo.com.au \n\n18+. LottoGo.com.au T&Cs apply. Gamble Responsibly 1800 858 858\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 8420,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:55:34.253994",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13153,
+      "page_text_length": 6959,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:55:39.260750",
+    "timestamp": "2025-07-01T21:40:33.315822",
+    "url": "https://competitioncloud.com.au/Home/Competitions?cid=13&cat=Health and fitness&sort=1",
+    "title": "Health and fitness",
+    "reason": "Found weak paid indicator 'premium' in entry context. Context: '\r\n                \n\n\n\ndaily limit reached\nupgrade your account to get:\n\nget unlimited entries\nenter ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\r\n                \n\n\n\nDaily limit reached\nUpgrade your account to get:\n\nGet unlimited entries\nEnter premium competitions\nUse save, ignore, mark as entered\nEarn more points, win more prizes\nGet up to 1...",
+    "source": "Aggregator 1",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 2231,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:40:36.401153",
     "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
     "title": "Win a Prize Home",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterland Prize Package \n\n Mater Home Lottery\n\n               \n                    Ends Aug 20 \nCharity\nHouse\nRequires a Purchase\n\n\n\n\n\n\n\n\n...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13192,
+      "page_text_length": 7432,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:55:41.896477",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32335,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:55:49.647139",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4936,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:55:57.556777",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5577,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:56:05.259542",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5468,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:56:10.010245",
+    "timestamp": "2025-07-01T21:40:44.841324",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 12hrs 03mins 50secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 19mins 15secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5620,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T21:56:15.373086",
+    "timestamp": "2025-07-01T21:40:56.839590",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -464,61 +512,45 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:56:20.178041",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
+    "timestamp": "2025-07-01T21:40:59.398750",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
+      "page_text_length": 33602,
+      "terms_text_length": 0,
+      "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:56:22.782822",
+    "timestamp": "2025-07-01T21:41:06.885202",
     "url": "https://www.competitions.com.au/tag/search/win-a-car/",
     "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 31185,
+      "page_text_length": 36540,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:56:56.208018",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            M...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13201,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:57:00.775128",
+    "timestamp": "2025-07-01T21:41:10.662174",
     "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
     "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs58 Min28 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 49 Days22 Hrs14 Min18 SecPrize DetailsWinners2Live the...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -528,109 +560,61 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:57:06.175421",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
+    "timestamp": "2025-07-01T21:41:13.277432",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterland Prize Package \n\n Mater Home Lottery\n\n               \n                    Ends Aug 20 \nCharity\nHouse\nRequires a Purchase\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13202,
+      "page_text_length": 7414,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:57:09.038715",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "timestamp": "2025-07-01T21:41:18.157857",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 32384,
+      "page_text_length": 7448,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:57:17.598353",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
+    "timestamp": "2025-07-01T21:41:24.242772",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
     "reason": "Found strong paid indicator: 'buy ticket'",
     "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 4936,
+      "page_text_length": 5468,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T21:57:25.272550",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5577,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:57:32.440873",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
-    "title": "Join LottoGo.com.au For FREE!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 12hrs 02mins 27secPower ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5620,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:57:37.528208",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5577,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T21:57:47.557174",
+    "timestamp": "2025-07-01T21:41:30.103935",
     "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -640,77 +624,237 @@
     }
   },
   {
-    "timestamp": "2025-06-30T21:57:50.152557",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $5K Harvey Norman Gift Card or Cash\n\n\n\n       ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31280,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:18:11.345179",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13204,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:18:14.228788",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32337,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:18:29.712835",
+    "timestamp": "2025-07-01T21:41:36.940707",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5578,
+      "page_text_length": 5577,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:18:33.648516",
+    "timestamp": "2025-07-01T21:41:40.791092",
     "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
     "title": "WIN this $450K first prize package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 12 Days21 Hrs37 Min3 SecPrize DetailsWinners9Built to Br...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs13 Min56 SecPrize DetailsWinners9Built to B...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4407,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:41:48.983078",
+    "url": "https://competitioncloud.com.au/Home/Competitions?cid=15&cat=Sports&sort=1",
+    "title": "Sports",
+    "reason": "Found weak paid indicator 'premium' in entry context. Context: '\r\n                \n\n\n\ndaily limit reached\nupgrade your account to get:\n\nget unlimited entries\nenter ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\r\n                \n\n\n\nDaily limit reached\nUpgrade your account to get:\n\nGet unlimited entries\nEnter premium competitions\nUse save, ignore, mark as entered\nEarn more points, win more prizes\nGet up to 1...",
+    "source": "Aggregator 1",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 2352,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:41:49.387076",
+    "url": "https://competitioncloud.com.au/Home/Competitions?cid=7&cat=Technology&sort=1",
+    "title": "Technology",
+    "reason": "Found weak paid indicator 'premium' in entry context. Context: '\r\n                \n\n\n\ndaily limit reached\nupgrade your account to get:\n\nget unlimited entries\nenter ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\r\n                \n\n\n\nDaily limit reached\nUpgrade your account to get:\n\nGet unlimited entries\nEnter premium competitions\nUse save, ignore, mark as entered\nEarn more points, win more prizes\nGet up to 1...",
+    "source": "Aggregator 1",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 2277,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:41:52.589375",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7475,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:01.161478",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
+    "title": "Join LottoGo.com.au For FREE!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 17mins 58secPower Draw U...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5609,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:15.349498",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5576,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:20.252543",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33687,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:30.607693",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:33.122386",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36530,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:35.413831",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7450,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:40.143583",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:44.291417",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:51.280300",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:42:55.289476",
+    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
+    "title": "WIN this $450K first prize package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs12 Min41 SecPrize DetailsWinners9Built to B...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -720,29 +864,77 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:18:41.756133",
+    "timestamp": "2025-07-01T21:43:04.732288",
+    "url": "https://www.aussiecomps.com/index.php?id=24514&cat_id=0&p=3&search=",
+    "title": "AussieComps.com - NEW Australian Competitions & Giveaways Listed Daily!",
+    "reason": "Found weak paid indicator 'purchase' in entry context. Context: ' into the draw to win. one form submission will count as one entry to each draw. \n\r\nboosted entry - ...'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... into the draw to win. One form submission will count as one entry to each draw. \n\r\nBoosted Entry - Purchase any Kincrome product/s from an Authorised Kincrome Dealer and retain an original copy of th...",
+    "source": "Aggregator 2",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 3417,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:43:24.798672",
+    "url": "https://www.competitions.com.au/win-hyundai-tucson-hybrid16t-hev-2wd/63079/",
+    "title": "Win a Hyundai Tucson Hybrid1.6T HEV 2WD",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... the entry methods for the QPAC 40 Hyundai Giveaway?To enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7741,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:43:34.972775",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            M...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7461,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:43:42.955041",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 41mins 18secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 16mins 17secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5620,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:18:47.649925",
+    "timestamp": "2025-07-01T21:43:57.688864",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -752,125 +944,29 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:18:59.136795",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:19:01.969435",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$28,000\n\n\nAdded Today\n\n\n\n\n\n\n\n Win a Quinnie Full of Tinnies \n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31231,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:19:32.973006",
-    "url": "https://www.competitions.com.au/win-hyundai-tucson-hybrid16t-hev-2wd/63079/",
-    "title": "Win a Hyundai Tucson Hybrid1.6T HEV 2WD",
-    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... the entry methods for the QPAC 40 Hyundai Giveaway?To enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 7840,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:19:51.760136",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13243,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:19:55.713343",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs35 Min33 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4267,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:20:01.649363",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $5K Harvey Norman Gift Card or Cash\n\n\n\n       ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13225,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:20:04.085136",
+    "timestamp": "2025-07-01T21:44:02.554975",
     "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
     "title": "Win a Holiday",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 32388,
+      "page_text_length": 33675,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:11.481236",
+    "timestamp": "2025-07-01T21:44:14.911389",
     "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
     "title": "Win a $28,500 Hyundai Venue!",
     "reason": "Found strong paid indicator: 'buy ticket'",
     "reason_type": "paid_detection",
     "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -880,13 +976,93 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:22.256232",
+    "timestamp": "2025-07-01T21:44:17.618801",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36567,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:44:24.848790",
+    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
+    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 49 Days22 Hrs11 Min3 SecPrize DetailsWinners2Live the ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4266,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:44:27.380437",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7450,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:44:32.328646",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:44:37.382650",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:44:44.580303",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -896,45 +1072,45 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:29.645008",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
+    "timestamp": "2025-07-01T21:44:54.971562",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5468,
+      "page_text_length": 7460,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:33.866843",
+    "timestamp": "2025-07-01T21:45:01.705109",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 39mins 26secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 14mins 58secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5621,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:39.198378",
+    "timestamp": "2025-07-01T21:45:16.948339",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -944,13 +1120,93 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:43.145102",
+    "timestamp": "2025-07-01T21:45:21.789834",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33648,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:45:29.491723",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36579,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:45:33.221325",
+    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
+    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 49 Days22 Hrs9 Min55 SecPrize DetailsWinners2Live the ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4266,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:45:35.586177",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7499,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:45:45.500139",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:45:50.614062",
     "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -960,93 +1216,29 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:20:45.782010",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31190,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:21:09.437142",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13216,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:21:13.243474",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
+    "timestamp": "2025-07-01T21:45:58.138972",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs34 Min15 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 4267,
-      "terms_text_length": 0,
-      "has_terms": false
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:18.141441",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13193,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:21:20.627106",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            M...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32410,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:21:32.057922",
+    "timestamp": "2025-07-01T21:46:01.775853",
     "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
     "title": "WIN this $450K first prize package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 12 Days21 Hrs34 Min4 SecPrize DetailsWinners9Built to Br...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs9 Min35 SecPrize DetailsWinners9Built to Br...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1056,109 +1248,109 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:39.558504",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
+    "timestamp": "2025-07-01T21:46:08.166158",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5468,
+      "page_text_length": 7475,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:44.746761",
+    "timestamp": "2025-07-01T21:46:14.991106",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 38mins 15secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 13mins 45secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5620,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:49.639828",
+    "timestamp": "2025-07-01T21:46:26.784471",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5577,
+      "page_text_length": 5576,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:53.682618",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
+    "timestamp": "2025-07-01T21:46:29.285029",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$13,500\n\n\nAdded Today\n\n\n\n\n\n\n\n Win a Japan Trip for Two, with ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
+      "page_text_length": 33602,
+      "terms_text_length": 0,
+      "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:21:56.516726",
+    "timestamp": "2025-07-01T21:46:41.757960",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:46:44.308766",
     "url": "https://www.competitions.com.au/tag/search/win-a-car/",
     "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 31238,
+      "page_text_length": 36546,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:22:20.437878",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13211,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:22:24.251098",
+    "timestamp": "2025-07-01T21:46:48.026905",
     "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
     "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs33 Min4 SecPrize DetailsWinners2Live the ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 49 Days22 Hrs8 Min40 SecPrize DetailsWinners2Live the ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1168,109 +1360,333 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:22:29.006039",
+    "timestamp": "2025-07-01T21:46:50.420744",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7409,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:46:55.499125",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:46:59.960055",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5468,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:05.386655",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:12.637063",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:16.009320",
+    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
+    "title": "WIN this $450K first prize package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs8 Min20 SecPrize DetailsWinners9Built to Br...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4404,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:22.398119",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7434,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:28.928771",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
+    "title": "Join LottoGo.com.au For FREE!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 12mins 31secPower Draw U...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5608,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:43.354126",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5576,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:48.172336",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lotto' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...Pool\nRecently Added \nSort: Recently Added \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n Win $1000 a day for 20 years*\n\n LottoGo.com.au \n\n18+. LottoGo.com.au T&Cs apply. Gamble Responsibly 1800 858 858\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33617,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:47:58.507880",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:00.998177",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36540,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:03.362725",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7446,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:08.143855",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:12.713395",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5468,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:18.416275",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:26.201406",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:30.040591",
+    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
+    "title": "WIN this $450K first prize package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs7 Min6 SecPrize DetailsWinners9Built to Bre...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4403,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:48:36.492995",
     "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
     "title": "Win a Prize Home",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
     "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13200,
+      "page_text_length": 7434,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:22:31.593121",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$2,850\n\n\nAdded Today\n\n\n\n\n\n\n\n Win $2,850 in Travel Vouchers \n\n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32335,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:22:38.681259",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4936,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:22:45.929980",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5578,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:22:52.884046",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5468,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:22:56.990746",
+    "timestamp": "2025-07-01T21:48:42.960088",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 37mins 03secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 11mins 17secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5620,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:23:01.598126",
+    "timestamp": "2025-07-01T21:48:57.411825",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1280,445 +1696,109 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:23:05.573988",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:08.162945",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$28,000\n\n\nAdded Today\n\n\n\n\n\n\n\n Win a Quinnie Full of Tinnies \n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31211,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:32.516861",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13189,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:36.324854",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs31 Min52 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4267,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:41.044487",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13156,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:43.457879",
+    "timestamp": "2025-07-01T21:49:02.289121",
     "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
     "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32369,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:50.134007",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4936,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:23:58.449915",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5578,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:05.091506",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
-    "title": "Join LottoGo.com.au For FREE!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 35mins 55secPower ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5620,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:09.759105",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5576,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:18.850616",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:21.387013",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31207,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:40.374197",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13148,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:44.118837",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs30 Min44 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4268,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:48.870500",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13193,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:51.314609",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32359,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:24:58.786487",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4936,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:06.978592",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4977,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:13.928444",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5468,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:18.291258",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
-    "title": "Join LottoGo.com.au For FREE!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 34mins 41secPower ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5620,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:23.223595",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5576,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:31.275365",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:25:33.811077",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
     "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $5K Harvey Norman Gift Card or Cash\n\n\n\n       ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 31270,
+      "page_text_length": 33661,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:25:57.474449",
+    "timestamp": "2025-07-01T21:49:09.724923",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36553,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:49:12.460331",
     "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
     "title": "Prize Home Competitions",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterland Prize Package \n\n Mater Home Lottery\n\n               \n                    Ends Aug 20 \nCharity\nHouse\nRequires a Purchase\n\n\n\n\n\n\n\n\n...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13221,
+      "page_text_length": 7414,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:26:02.200783",
-    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
-    "title": "Win a Prize Home",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "timestamp": "2025-07-01T21:49:17.247036",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13209,
+      "page_text_length": 7448,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:26:04.809208",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32384,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:26:11.819180",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
+    "timestamp": "2025-07-01T21:49:22.496198",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
     "reason": "Found strong paid indicator: 'buy ticket'",
     "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 4936,
+      "page_text_length": 5468,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:26:20.021241",
+    "timestamp": "2025-07-01T21:49:26.650499",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5586,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:49:33.874362",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1728,237 +1808,61 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:26:23.701328",
+    "timestamp": "2025-07-01T21:49:37.804539",
     "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
     "title": "WIN this $450K first prize package!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 12 Days21 Hrs29 Min13 SecPrize DetailsWinners9Built to B...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs5 Min58 SecPrize DetailsWinners9Built to Br...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 4406,
+      "page_text_length": 4404,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:26:30.608519",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5468,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:26:35.232070",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
-    "title": "Join LottoGo.com.au For FREE!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 33mins 24secPower ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5620,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:26:39.853214",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5577,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:26:44.174185",
-    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5585,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:26:46.743802",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lotto' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...Pool\nRecently Added \nSort: Recently Added \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n Win $1000 a day for 20 years*\n\n LottoGo.com.au \n\n18+. LottoGo.com.au T&Cs apply. Gamble Responsibly 1800 858 858\n\n\n\n\n\n\n\n\n\n18+\n\n\n\n\n\n\n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 31180,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:11.425948",
-    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
-    "title": "Prize Home Competitions",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Dubai Fashion Makeover Trip\n\n\n\n            My ...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 13243,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:15.316868",
-    "url": "https://www.competitions.com.au/exit/win-luxury-million-gold-coast-hinterland-prize-package/63652/",
-    "title": "Win a Luxury $5 MILLION Gold Coast Hinterland Prize Package!",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...uy TicketsVIP MembersYour SupportWinnersWin a Luxury $5 MILLION Gold Coast Hinterland Prize Package!Lottery No. 320Drawn: 27 August 2025Closes in 50 Days21 Hrs28 Min13 SecPrize DetailsWinners2Live the...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4268,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:20.108371",
+    "timestamp": "2025-07-01T21:49:49.399711",
     "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
     "title": "Win a Prize Home",
     "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
     "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$5,028,006\n\n\n\n\n\n\n\n Win a Luxury $5 Million Gold Coast Hinterl...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 13182,
+      "page_text_length": 7453,
       "terms_text_length": 0,
       "has_terms": false
     }
   },
   {
-    "timestamp": "2025-06-30T22:27:22.537906",
-    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
-    "title": "Win a Holiday",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n$2,850\n\n\nAdded Today\n\n\n\n\n\n\n\n Win $2,850 in Travel Vouchers \n\n...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 32335,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:29.553953",
-    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
-    "title": "Win a $28,500 Hyundai Venue!",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 4936,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:37.976598",
-    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
-    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
-    "reason": "Found strong paid indicator: 'lottery'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$248m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5578,
-      "terms_text_length": 578,
-      "has_terms": true
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:44.793750",
-    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
-    "title": "About The Cause",
-    "reason": "Found strong paid indicator: 'buy ticket'",
-    "reason_type": "paid_detection",
-    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
-    "source": "Competitions.com.au",
-    "reviewed": false,
-    "feedback": null,
-    "additional_data": {
-      "page_text_length": 5468,
-      "terms_text_length": 0,
-      "has_terms": false
-    }
-  },
-  {
-    "timestamp": "2025-06-30T22:27:49.297848",
+    "timestamp": "2025-07-01T21:49:56.080651",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
     "title": "Join LottoGo.com.au For FREE!",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 1 day 11hrs 32mins 10secPower ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 10mins 04secPower Draw U...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 5620,
+      "page_text_length": 5608,
       "terms_text_length": 578,
       "has_terms": true
     }
   },
   {
-    "timestamp": "2025-06-30T22:27:53.926287",
+    "timestamp": "2025-07-01T21:50:09.446383",
     "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1968,13 +1872,109 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:27:58.090887",
+    "timestamp": "2025-07-01T21:50:12.058105",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...58 858\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33671,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:22.122308",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:24.635360",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36541,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:26.909007",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7445,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:31.696171",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:36.352505",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5468,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:40.478377",
     "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
     "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
     "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
     "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
-    "source": "Competitions.com.au",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
@@ -1984,17 +1984,225 @@
     }
   },
   {
-    "timestamp": "2025-06-30T22:28:00.699594",
-    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
-    "title": "Win a Car",
-    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "timestamp": "2025-07-01T21:50:48.356345",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
     "reason_type": "paid_detection",
-    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin $5K Cash\n\n\n\n            Must Have It \n          ...",
-    "source": "Competitions.com.au",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
     "reviewed": false,
     "feedback": null,
     "additional_data": {
-      "page_text_length": 31249,
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:50:51.990248",
+    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
+    "title": "WIN this $450K first prize package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs4 Min44 SecPrize DetailsWinners9Built to Br...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4405,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:02.241846",
+    "url": "https://www.competitions.com.au/tag/search/win-a-prize-home/",
+    "title": "Win a Prize Home",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...atured\n\n\n\n\n\n\n\nWin a Luxury $5 Million Gold Coast Hinterland Prize Package\n\n\n\n            Mater Home Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7497,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:09.896017",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-mega-millions/50781/",
+    "title": "Join LottoGo.com.au For FREE!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/LoginMega Millions USA MAX$77 MillionTime Left: 12hrs 08mins 50secPower Draw U...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5608,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:22.550575",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-usa-jackpot/50780/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$77m*Real tickets for worldwide jackpots. Licensed by the Northern Territ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5576,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:25.317211",
+    "url": "https://www.competitions.com.au/tag/search/win-a-holiday/",
+    "title": "Win a Holiday",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a $28K Hyundai Venue\n\n\n\n            ACCF \n      ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 33602,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:36.030445",
+    "url": "https://www.competitions.com.au/exit/win-hyundai-venue/63657/",
+    "title": "Win a $28,500 Hyundai Venue!",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $28,000 Hyundai VenueACCF Raffle No. 50 | Drawn: 31st July 2025Join Australian Cer...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4936,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:38.504012",
+    "url": "https://www.competitions.com.au/tag/search/win-a-car/",
+    "title": "Win a Car",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the entry methods for the QPAC 40 Hyundai Giveaway?\nTo enter the QPAC 40 Hyundai Giveaway, entrants must purchase at least one (1) valid, booked ticket valued greater than $0 during the Competition Pe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 36553,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:40.968420",
+    "url": "https://www.competitions.com.au/tag/search/prize-home-competitions/",
+    "title": "Prize Home Competitions",
+    "reason": "Found strong paid indicator: 'lottery' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...         \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin a Custom Toyota LC Military GXL\n\n\n\n            Mater Cancer Lottery \n            \n\n\n\n\n\n\n\n\n\n\nFeatured\n\n\n\n\n\n\n\nWin 1 of 2 July Classic Checked Sets\n\n\n\n            ...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7494,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:50.019358",
+    "url": "https://www.competitions.com.au/win-prizes/64563/",
+    "title": "Win a Share of $30K Prizes",
+    "reason": "Found strong paid indicator: 'must purchase' (after filtering: Filtered out competitions.com.au category navigation)",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...the methods of entry for the Shin to Win Competition?To enter the Shin to Win Competition, entrants must purchase a specially marked Shin Ramyun or Nongshim pack, which includes a scratch card reveali...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 7448,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:51:55.021544",
+    "url": "https://www.competitions.com.au/exit/win-harvey-norman-gift-card-or-cash/63656/",
+    "title": "About The Cause",
+    "reason": "Found strong paid indicator: 'buy ticket'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "... Club\nCharity RafflesFree EntryWinnersFAQMCR ClubLogin\n0$0.00No products in the cart.About The CauseBuy Tickets\nWin a $5,000 Harvey Norman Gift Card or Cash  HRI Raffle No. 68 | Drawn: 15th August 202...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5468,
+      "terms_text_length": 0,
+      "has_terms": false
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:52:00.900012",
+    "url": "https://www.competitions.com.au/exit/win-1000-a-day-for-20-years/50779/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$1,000 a Day *Real tickets for worldwide jackpots. Licensed by the Northe...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5585,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:52:07.381724",
+    "url": "https://www.competitions.com.au/exit/win-a-share-of-huge-usa-power-draw-jackpot/50782/",
+    "title": "Real tickets for worldwide jackpots. Licensed by the Northern Territory Government.",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...\n\n\n\n \n\n\n\n\n\n\n\n\nRegistration LottoGo.com\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKenoLotterySyndicatesJoin/Login$266m*Real tickets for worldwide jackpots. Licensed by the Northern Terri...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 5577,
+      "terms_text_length": 578,
+      "has_terms": true
+    }
+  },
+  {
+    "timestamp": "2025-07-01T21:52:11.849583",
+    "url": "https://www.competitions.com.au/exit/win-custom-toyota-lc-military-gxl/63653/",
+    "title": "WIN this $450K first prize package!",
+    "reason": "Found strong paid indicator: 'lottery'",
+    "reason_type": "paid_detection",
+    "page_text_sample": "...wsLoginCartPrize DetailsBuy TicketsVIP MembersYour SupportWinnersWIN this $450K first prize package!Lottery No. 123Drawn: 16 July 2025Closes in 11 Days22 Hrs3 Min24 SecPrize DetailsWinners9Built to Br...",
+    "source": "Aggregator 3",
+    "reviewed": false,
+    "feedback": null,
+    "additional_data": {
+      "page_text_length": 4404,
       "terms_text_length": 0,
       "has_terms": false
     }

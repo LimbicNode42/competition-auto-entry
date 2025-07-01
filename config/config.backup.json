@@ -1,0 +1,71 @@
+{
+  "personal_info": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1-555-123-4567",
+    "address_line1": "123 Main Street",
+    "address_line2": "Apt 4B",
+    "city": "New York",
+    "state": "NY",
+    "postal_code": "10001",
+    "country": "United States",
+    "date_of_birth": "1990-01-01"
+  },
+  "social_media": {
+    "instagram_username": "",
+    "instagram_password": "",
+    "twitter_username": "",
+    "twitter_password": "",
+    "facebook_username": "",
+    "facebook_password": "",
+    "youtube_username": "",
+    "youtube_password": "",
+    "bluesky_username": "",
+    "bluesky_password": ""
+  },
+  "google_auth": {
+    "email": "wbenjamin400@gmail.com",
+    "auto_login": true,
+    "save_session": true
+  },
+  "scraping": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "delay_min": 1.0,
+    "delay_max": 3.0,
+    "timeout": 30,
+    "retries": 3,
+    "headless": true
+  },
+  "filters": {
+    "min_age": 18,
+    "max_age": 99,
+    "allowed_countries": [
+      "US",
+      "UK",
+      "CA",
+      "AU",
+      "NZ"
+    ],
+    "excluded_keywords": [
+      "paid",
+      "purchase",
+      "buy",
+      "subscription",
+      "premium"
+    ],
+    "required_keywords": [
+      "free",
+      "no purchase"
+    ]
+  },
+  "aggregator_urls": [
+    "https://competitioncloud.com.au/",
+    "https://www.aussiecomps.com/",
+    "https://www.competitions.com.au/"
+  ],
+  "max_daily_entries": 25,
+  "log_level": "INFO",
+  "database_path": "data/competitions.db",
+  "rejection_log_path": "data/rejection_log.json"
+}

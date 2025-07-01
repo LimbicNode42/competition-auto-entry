@@ -6,7 +6,7 @@ import json
 import os
 from typing import Dict, Any, List
 from pathlib import Path
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, field_validator
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -26,6 +26,13 @@ class PersonalInfo(BaseModel):
     postal_code: str = ""
     country: str = ""
     date_of_birth: str = ""  # YYYY-MM-DD format
+
+
+class GoogleAuthCredentials(BaseModel):
+    """Google authentication credentials."""
+    email: str = ""
+    auto_login: bool = True
+    save_session: bool = True
 
 
 class SocialMediaCredentials(BaseModel):
@@ -64,6 +71,7 @@ class FilterSettings(BaseModel):
 class AppConfig(BaseModel):
     """Main application configuration."""
     personal_info: PersonalInfo
+    google_auth: GoogleAuthCredentials
     social_media: SocialMediaCredentials
     scraping: ScrapingSettings = ScrapingSettings()
     filters: FilterSettings = FilterSettings()
@@ -143,4 +151,4 @@ def save_config(config: AppConfig, config_path: str = "config/config.json") -> N
     config_file.parent.mkdir(parents=True, exist_ok=True)
     
     with open(config_file, 'w', encoding='utf-8') as f:
-        json.dump(config.dict(), f, indent=2, ensure_ascii=False)
+        json.dump(config.model_dump(), f, indent=2, ensure_ascii=False)
