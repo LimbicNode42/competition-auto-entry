@@ -17,6 +17,7 @@ from fake_useragent import UserAgent
 from ..utils.config import AppConfig
 from ..utils.rejection_logger import RejectionLogger
 from ..integrations.google_auth import GoogleAuthHandler
+from ..integrations.basic_auth import BasicAuthHandler
 
 logger = logging.getLogger("competition_auto_entry.base_scraper")
 
@@ -40,8 +41,9 @@ class BaseScraper:
         rejection_log_path = getattr(config, 'rejection_log_path', 'data/rejection_log.json')
         self.rejection_logger = RejectionLogger(rejection_log_path, clear_on_init=True)
         
-        # Google auth handler (initialized when driver is created)
+        # Auth handlers (initialized when driver is created)
         self.google_auth = None
+        self.basic_auth = None
         
         # Sites that require authentication
         self.auth_required_sites = {
@@ -110,8 +112,9 @@ class BaseScraper:
             self.driver = webdriver.Chrome(options=options)
             self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             
-            # Initialize Google auth handler
-            self.google_auth = GoogleAuthHandler(self.driver, self.config)
+            # Initialize auth handlers
+            self.google_auth = GoogleAuthHandler(self.config, self.driver)
+            self.basic_auth = BasicAuthHandler(self.driver, self.config)
             
             logger.info("Chrome WebDriver initialized")
             return self.driver
@@ -215,8 +218,8 @@ class BaseScraper:
         domain = urlparse(url).netloc.lower()
         logger.info(f"Authentication required for {domain} (type: {auth_type})")
         
-        if not self.google_auth:
-            self._init_selenium()  # This initializes google_auth
+        if not self.google_auth or not self.basic_auth:
+            self._init_selenium()  # This initializes auth handlers
         
         try:
             if auth_type == "site_level":
@@ -238,7 +241,13 @@ class BaseScraper:
         try:
             from urllib.parse import urlparse
             domain = urlparse(url).netloc
-            success = self.google_auth.login_to_site(url, domain)
+            
+            # Use basic auth for Competition Cloud, Google auth for others
+            if 'competitioncloud.com.au' in domain:
+                success = self.basic_auth.login_to_site(url, domain)
+            else:
+                success = self.google_auth.login_to_site(url, domain)
+                
             if success:
                 logger.info(f"Successfully authenticated to {domain}")
                 return True

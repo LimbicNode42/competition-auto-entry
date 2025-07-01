@@ -244,12 +244,8 @@ class CompetitionScraper:
                 '.comp-item a', '.competition-link a', '.listing-item a'
             ]
         elif 'competitioncloud.com.au' in url:
-            # Specific selectors for Competition Cloud (needs login/JS)
-            link_selectors = [
-                '.competition-card a', '.comp-listing a', '.entry-link a',
-                'a[href*="/comp/"]', 'a[href*="/competition/"]',
-                'a[href*="/entry/"]', 'a[href*="/enter/"]'
-            ]
+            # Special handling for Competition Cloud - need to follow category links
+            return await self._process_competition_cloud_links(url, source_name, soup)
         elif 'aussiecomps.com' in url:
             # Specific selectors for AussieComps - uses table structure with /index.php?id= pattern
             link_selectors = [
@@ -314,6 +310,132 @@ class CompetitionScraper:
                 continue
         
         logger.info(f"Successfully discovered {len(competitions)} competitions from {source_name}")
+        return competitions
+    
+    async def _process_competition_cloud_links(self, url: str, source_name: str, soup) -> List[Competition]:
+        """
+        Process Competition Cloud links by extracting competition items directly from the loaded page.
+        
+        Args:
+            url: Competition Cloud main page URL
+            source_name: Name of the source
+            soup: BeautifulSoup object of the main page (after Show More clicks)
+            
+        Returns:
+            List of discovered competitions
+        """
+        competitions = []
+        
+        # Competition Cloud uses d-item class for individual competition containers
+        competition_items = soup.select('.d-item')
+        logger.info(f"Found {len(competition_items)} competition items on Competition Cloud")
+        
+        for item in competition_items:
+            try:
+                # Extract competition details from the item container
+                title_elem = item.find('h4') or item.find('h3') or item.find('.title')
+                if not title_elem:
+                    # Look for any text that might be a title
+                    text_content = item.get_text().strip()
+                    if text_content and len(text_content) > 10:
+                        # Use first meaningful line as title
+                        lines = [line.strip() for line in text_content.split('\n') if line.strip()]
+                        if lines and not lines[0].lower().startswith('end:'):
+                            title = lines[0][:100]  # First line as title, truncated
+                        else:
+                            title = lines[1] if len(lines) > 1 else "Competition"
+                    else:
+                        continue
+                else:
+                    title = clean_text(title_elem.get_text())
+                
+                if not title or len(title) < 5:
+                    continue
+                
+                # Competition Cloud uses onclick handlers instead of href
+                # Look for visitsite() JavaScript calls
+                visit_links = item.find_all('a', onclick=True)
+                competition_url = None
+                
+                for link in visit_links:
+                    onclick = link.get('onclick', '')
+                    # Extract parameters from visitsite('guid', id) calls
+                    if 'visitsite(' in onclick:
+                        import re
+                        match = re.search(r"visitsite\('([^']+)',\s*(\d+)\)", onclick)
+                        if match:
+                            guid = match.group(1)
+                            comp_id = match.group(2)
+                            # Construct the Competition Cloud redirect URL
+                            competition_url = f"https://competitioncloud.com.au/visitsite/{guid}/{comp_id}"
+                            break
+                
+                if not competition_url:
+                    logger.debug(f"No valid competition URL found for: {title}")
+                    continue
+                
+                # Extract description from the item text
+                item_text = item.get_text()
+                description_lines = [line.strip() for line in item_text.split('\n') if line.strip()]
+                description = ""
+                
+                # Look for description text (skip title, "End:", "Premium", and "Visit" lines)
+                for line in description_lines:
+                    if (line != title and 
+                        not line.lower().startswith('end:') and 
+                        not line.lower().startswith('visit') and
+                        line.lower() != 'premium' and
+                        len(line) > 10):  # Meaningful description line
+                        description = line[:200]  # Limit length
+                        break
+                
+                # Extract deadline if present
+                deadline = None
+                deadline_text = ""
+                for line in description_lines:
+                    if line.lower().startswith('end:'):
+                        deadline_text = line
+                        break
+                
+                if deadline_text:
+                    import re
+                    # Try to extract date from "End: Friday, 31 October 2025" format
+                    date_match = re.search(r'(\d{1,2})\s+(\w+)\s+(\d{4})', deadline_text)
+                    if date_match:
+                        try:
+                            from datetime import datetime
+                            day, month_name, year = date_match.groups()
+                            # Convert month name to number
+                            month_names = {
+                                'january': 1, 'february': 2, 'march': 3, 'april': 4,
+                                'may': 5, 'june': 6, 'july': 7, 'august': 8,
+                                'september': 9, 'october': 10, 'november': 11, 'december': 12
+                            }
+                            month_num = month_names.get(month_name.lower())
+                            if month_num:
+                                deadline = datetime(int(year), month_num, int(day))
+                        except:
+                            pass
+                
+                # Create competition object
+                competition = Competition(
+                    url=competition_url,
+                    title=title,
+                    source=source_name,
+                    description=description,
+                    deadline=deadline,
+                    terms_url="",
+                    entry_url=competition_url
+                )
+                
+                competitions.append(competition)
+                logger.debug(f"Found Competition Cloud competition: {title}")
+                
+            except Exception as e:
+                logger.error(f"Error processing Competition Cloud item: {e}")
+                continue
+        
+        logger.info(f"Successfully discovered {len(competitions)} competitions from Competition Cloud")
         return competitions
     
     async def _analyze_competition_page(self, url: str, source: str) -> Optional[Competition]:
@@ -785,6 +907,7 @@ class CompetitionScraper:
                             logger.warning(f"Failed to authenticate for competition: {url}")
                             return None
                             
+
                     except Exception as e:
                         logger.error(f"Error handling authentication for {url}: {e}")
                         return None
@@ -885,7 +1008,6 @@ class CompetitionScraper:
                         
                         if button_found:
                             break
-                    
                     except Exception as e:
                         logger.debug(f"No button found for selector {selector}: {e}")
                         continue
@@ -988,6 +1110,8 @@ class CompetitionScraper:
                                 all_competitions.extend(competitions)
                                 page_found = True
                                 break
+                        else:
+                            logger.info(f"No content found on page {page_url}, skipping")
                     except Exception as e:
                         logger.debug(f"Failed to fetch Competitions.com.au page {page_url}: {e}")
                         continue

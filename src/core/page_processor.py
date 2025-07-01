@@ -72,7 +72,11 @@ class PageProcessor:
             ]
         elif 'competitioncloud.com.au' in domain:
             # Specific selectors for Competition Cloud
+            # Based on debug findings - they use category links and individual competition links
             return [
+                'a[href*="/Home/Competitions"]',  # Category page links
+                'a[href*="/Competitions/Entry/"]',  # Individual competition entry links
+                'a[href*="/Entry/"]',  # Alternative entry links
                 '.competition-card a', '.comp-listing a', '.entry-link a',
                 'a[href*="/comp/"]', 'a[href*="/competition/"]',
                 'a[href*="/entry/"]', 'a[href*="/enter/"]',
