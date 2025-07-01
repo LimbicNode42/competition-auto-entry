@@ -123,45 +123,38 @@ class PaginationHandler:
         all_competitions = []
         base_url = url.rstrip('/')
         
-        # Try both HTTP and Selenium approaches
         page = 1
-        max_pages = 20  # Reasonable limit
+        max_pages = 10  # Reasonable limit based on site structure
         
         logger.info(f"Handling AussieComps pagination for {url}")
         
         while page <= max_pages:
             try:
-                # Try common pagination URL patterns
-                page_urls = [
-                    f"{base_url}/page/{page}",
-                    f"{base_url}?page={page}",
-                    f"{base_url}?p={page}",
-                    f"{base_url}/competitions/page/{page}",
-                    f"{base_url}/contests/page/{page}"
-                ]
+                # AussieComps uses /index.php?p=X&cat_id=0 pattern
+                if page == 1:
+                    page_url = url  # First page is the base URL
+                else:
+                    page_url = f"{base_url}/index.php?p={page}&cat_id=0"
                 
-                page_found = False
-                
-                for page_url in page_urls:
-                    try:
-                        soup = await self.base_scraper.fetch_page(page_url)
-                        if soup and self._has_competitions_on_page(soup):
-                            logger.info(f"Processing AussieComps page {page}: {page_url}")
-                            competitions = await page_processor(page_url, source_name, soup)
-                            if competitions:  # Only continue if we found competitions
-                                all_competitions.extend(competitions)
-                                page_found = True
-                                break
-                    except Exception as e:
-                        logger.debug(f"Failed to fetch AussieComps page {page_url}: {e}")
-                        continue
-                
-                if not page_found:
-                    logger.info(f"No more pages found at page {page}")
+                try:
+                    soup = await self.base_scraper.fetch_page(page_url)
+                    if soup and self._has_competitions_on_page(soup):
+                        logger.info(f"Processing AussieComps page {page}: {page_url}")
+                        competitions = await page_processor(page_url, source_name, soup)
+                        if competitions:  # Only continue if we found competitions
+                            all_competitions.extend(competitions)
+                        else:
+                            logger.info(f"No competitions found on page {page}, ending pagination")
+                            break
+                    else:
+                        logger.info(f"No content found on page {page}, ending pagination")
+                        break
+                except Exception as e:
+                    logger.debug(f"Failed to fetch AussieComps page {page_url}: {e}")
                     break
                 
                 page += 1
-                await asyncio.sleep(1)  # Be respectful with delays
+                await asyncio.sleep(2)  # Be respectful with delays
                 
             except Exception as e:
                 logger.error(f"Error processing AussieComps page {page}: {e}")
@@ -270,7 +263,12 @@ class PaginationHandler:
         if not soup:
             return False
         
-        # Look for competition indicators
+        # Check for AussieComps specific patterns first
+        aussiecomps_indicators = soup.select('a[href*="/index.php?id="]')
+        if aussiecomps_indicators:
+            return True
+        
+        # Look for general competition indicators
         competition_indicators = [
             '.competition', '.contest', '.giveaway', '.entry',
             '[href*="/win"]', '[href*="/entry"]', '[href*="/exit"]',

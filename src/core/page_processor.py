@@ -79,12 +79,12 @@ class PageProcessor:
                 '.card a', '.item a'
             ]
         elif 'aussiecomps.com' in domain:
-            # Specific selectors for AussieComps
+            # Specific selectors for AussieComps - using actual URL patterns
             return [
-                '.comp-entry a', '.competition-item a', '.contest-link a',
-                'a[href*="/comp/"]', 'a[href*="/contest/"]',
-                'a[href*="/ps/"]',  # Promotional/sponsored links
-                'a[href*="/entry/"]', '.listing a'
+                'a[href*="/index.php?id="]',  # Main competition links
+                'a[href*="?id="]',  # Alternative ID pattern
+                'tr a[href*="id="]',  # Links within table rows
+                '.competition a', '.comp-item a'  # Fallback selectors
             ]
         else:
             # Generic fallback selectors
@@ -122,7 +122,7 @@ class PageProcessor:
         
         # Skip obvious non-competition URLs
         skip_patterns = [
-            'mailto:', 'tel:', 'javascript:', '#',
+            'mailto:', 'tel:', 'javascript:',
             '/terms', '/privacy', '/contact', '/about',
             '/faq', '/help', '/login', '/register',
             '.pdf', '.jpg', '.png', '.gif', '.css', '.js',
@@ -134,11 +134,16 @@ class PageProcessor:
             if pattern in url_lower:
                 return False
         
+        # Skip standalone anchor links (but not URLs with fragments like #onads)
+        if url.strip() == '#' or url.startswith('#'):
+            return False
+        
         # Check for competition-like URL patterns
         competition_url_patterns = [
             '/exit/', '/entry/', '/enter/', '/win', '/prize',
             '/competition', '/contest', '/giveaway', '/comp/',
-            '/c/', '/ps/'  # promotional/sponsored
+            '/c/', '/ps/',  # promotional/sponsored
+            'index.php?id=', '?id='  # AussieComps patterns
         ]
         
         has_competition_url = any(pattern in url_lower for pattern in competition_url_patterns)

@@ -42,9 +42,16 @@ def normalize_url(url: str, base_url: Optional[str] = None) -> str:
     if base_url and not is_valid_url(url):
         url = urljoin(base_url, url)
     
-    # Remove fragments and normalize
+    # Normalize URL but preserve query parameters (important for competition IDs)
     parsed = urlparse(url)
-    return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+    result = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+    
+    # Include query parameters as they're often used for competition identification
+    if parsed.query:
+        result += f"?{parsed.query}"
+    
+    # Note: We intentionally exclude fragments (#) as they're typically not needed for server requests
+    return result
 
 
 def extract_domain(url: str) -> str:
