@@ -7,6 +7,7 @@ Main entry point for the competition automation system.
 import asyncio
 import sys
 from pathlib import Path
+from datetime import datetime
 import click
 from typing import Optional
 
@@ -17,6 +18,7 @@ from src.utils.logger import setup_logging
 from src.utils.config import load_config
 from src.core.scraper import CompetitionScraper
 from src.core.tracker import CompetitionTracker
+from src.core.entry_tracker import EntryTracker, EntryRecord, EntryStatus
 from src.integrations.aggregators import AggregatorManager
 
 # Setup logging
@@ -53,12 +55,13 @@ def main(config: str, dry_run: bool, verbose: bool, max_entries: int) -> None:
         
         # Initialize components
         tracker = CompetitionTracker()
+        entry_tracker = EntryTracker()
         scraper = CompetitionScraper(app_config)
         aggregator_manager = AggregatorManager(app_config)
         
         # Run the main process
         asyncio.run(run_competition_entry_process(
-            tracker, scraper, aggregator_manager, 
+            tracker, entry_tracker, scraper, aggregator_manager, 
             dry_run, max_entries
         ))
         
@@ -73,6 +76,7 @@ def main(config: str, dry_run: bool, verbose: bool, max_entries: int) -> None:
 
 async def run_competition_entry_process(
     tracker: CompetitionTracker,
+    entry_tracker: EntryTracker,
     scraper: CompetitionScraper,
     aggregator_manager: AggregatorManager,
     dry_run: bool,
@@ -83,6 +87,7 @@ async def run_competition_entry_process(
     
     Args:
         tracker: Competition tracking system
+        entry_tracker: Entry tracking system for success/failure recording
         scraper: Web scraping system
         aggregator_manager: Aggregator website manager
         dry_run: Whether to run in dry-run mode
@@ -97,16 +102,27 @@ async def run_competition_entry_process(
     
     # Step 2: Filter competitions (free only, not previously entered)
     logger.info("Filtering competitions...")
+    
+    # First filter by tracker eligibility
     eligible_competitions = await tracker.filter_eligible_competitions(
         new_competitions, max_entries
     )
-    logger.info(f"Found {len(eligible_competitions)} eligible competitions")
+    
+    # Then filter by entry tracker to prevent duplicates
+    final_eligible = []
+    for competition in eligible_competitions:
+        if not entry_tracker.has_entered_competition(competition.url):
+            final_eligible.append(competition)
+        else:
+            logger.info(f"Skipping already entered competition: {competition.title}")
+    
+    logger.info(f"Found {len(final_eligible)} eligible competitions (after duplicate check)")
     
     # Step 3: Enter competitions
     entries_attempted = 0
     entries_successful = 0
     
-    for competition in eligible_competitions:
+    for competition in final_eligible:
         if entries_attempted >= max_entries:
             logger.info(f"Reached maximum entries limit ({max_entries})")
             break
@@ -118,8 +134,28 @@ async def run_competition_entry_process(
             if dry_run:
                 logger.info(f"[DRY RUN] Would enter competition: {competition.url}")
                 success = True
+                confirmation = "DRY_RUN_SUCCESS"
+                reason = None
             else:
                 success = await scraper.enter_competition(competition)
+                confirmation = "ENTRY_SUBMITTED" if success else None
+                reason = None if success else "Entry submission failed"
+            
+            # Record the entry attempt
+            timestamp = datetime.now().isoformat()
+            status = EntryStatus.SUCCESS if success else EntryStatus.FAILED
+            
+            entry_record = EntryRecord(
+                url=competition.url,
+                title=competition.title,
+                timestamp=timestamp,
+                status=status,
+                reason=reason,
+                confirmation=confirmation,
+                source=getattr(competition, 'source', 'unknown')
+            )
+            
+            entry_tracker.record_entry(entry_record)
             
             if success:
                 entries_successful += 1
@@ -131,6 +167,19 @@ async def run_competition_entry_process(
                 
         except Exception as e:
             logger.error(f"Error entering competition {competition.title}: {e}")
+            
+            # Record the failed entry
+            timestamp = datetime.now().isoformat()
+            entry_record = EntryRecord(
+                url=competition.url,
+                title=competition.title,
+                timestamp=timestamp,
+                status=EntryStatus.FAILED,
+                reason=f"Exception: {str(e)}",
+                source=getattr(competition, 'source', 'unknown')
+            )
+            
+            entry_tracker.record_entry(entry_record)
             await tracker.record_entry(competition, success=False, error=str(e))
     
     # Step 4: Summary
@@ -138,10 +187,23 @@ async def run_competition_entry_process(
     logger.info("ENTRY SUMMARY")
     logger.info("=" * 50)
     logger.info(f"Competitions discovered: {len(new_competitions)}")
-    logger.info(f"Competitions eligible: {len(eligible_competitions)}")
+    logger.info(f"Competitions eligible: {len(final_eligible)}")
     logger.info(f"Entries attempted: {entries_attempted}")
     logger.info(f"Entries successful: {entries_successful}")
     logger.info(f"Success rate: {(entries_successful/entries_attempted*100):.1f}%" if entries_attempted > 0 else "N/A")
+    
+    # Show entry tracker statistics
+    stats = entry_tracker.get_entry_stats(days=1)
+    if stats['total_entries'] > 0:
+        logger.info("\nENTRY TRACKER STATS (TODAY)")
+        logger.info("-" * 30)
+        for status, count in stats['status_breakdown'].items():
+            logger.info(f"{status.upper()}: {count}")
+        
+        if stats['top_failure_reasons']:
+            logger.info("\nTOP FAILURE REASONS:")
+            for reason, count in list(stats['top_failure_reasons'].items())[:3]:
+                logger.info(f"• {reason}: {count} times")
 
 
 if __name__ == "__main__":
