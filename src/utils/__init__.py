@@ -1,1 +1,3 @@
-"""Utility functions and helpers."""
+"""
+utils module for Competition Auto-Entry System
+"""

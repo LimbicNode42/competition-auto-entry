@@ -1,1 +1,3 @@
-"""Core competition entry functionality."""
+"""
+core module for Competition Auto-Entry System
+"""

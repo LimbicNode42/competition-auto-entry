@@ -95,3 +95,12 @@ selenium-html-*.html
 # Temporary files
 *.tmp
 *.temp
+
+# Added entries
+screenshots/
+archive/
+confirmations/
+!logs/.gitkeep
+!screenshots/.gitkeep
+!confirmations/.gitkeep
+!data/.gitkeep

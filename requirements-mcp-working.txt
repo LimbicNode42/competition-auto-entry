@@ -1,0 +1,39 @@
+# Working MCP Requirements for Competition Auto-Entry System
+# Only includes packages that actually exist and are installable
+
+# Browser Automation
+playwright>=1.40.0
+selenium>=4.15.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+pytesseract>=0.3.10
+numpy>=1.24.0
+
+# Screenshot & Visual Analysis
+pyautogui>=0.9.54
+mss>=9.0.1
+
+# Web Scraping & Data Extraction
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+
+# Form Detection & Processing
+pydantic>=2.5.0
+validators>=0.22.0
+python-dotenv>=1.0.0
+
+# Database & Logging
+sqlalchemy>=2.0.0
+loguru>=0.7.0
+structlog>=23.0.0
+
+# Async support
+aiohttp>=3.9.0
+asyncio-mqtt>=0.16.0
+
+# Image processing dependencies
+imageio>=2.31.0
+scikit-image>=0.21.0

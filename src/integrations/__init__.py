@@ -1,1 +1,3 @@
-"""External service integrations."""
+"""
+integrations module for Competition Auto-Entry System
+"""
