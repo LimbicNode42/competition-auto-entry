@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 from urllib.parse import urljoin, urlparse
 import time
+from enum import Enum
 
 # Import our adaptive entry system
 from adaptive_competition_entry import AdaptiveCompetitionEntry, CompetitionEntry, CompetitionStatus, DecisionNode

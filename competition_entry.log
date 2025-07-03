@@ -1,0 +1,351 @@
+2025-07-03 18:14:43,494 - INFO - Installing beautifulsoup4...
+2025-07-03 18:14:46,383 - INFO - Installing opencv-python...
+2025-07-03 18:14:49,302 - INFO - Installing pillow...
+2025-07-03 18:14:51,929 - INFO - Created default config at config.json
+2025-07-03 18:14:52,172 - INFO - Starting automated competition entry session
+2025-07-03 18:15:01,110 - ERROR - Competition discovery failed: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.competitioncloud.co.uk/
+Call log:
+  - navigating to "https://www.competitioncloud.co.uk/", waiting until "load"
+
+2025-07-03 18:15:01,394 - WARNING - No competitions discovered
+2025-07-03 18:23:01,020 - INFO - Configuration loaded from config/config.json
+2025-07-03 18:23:01,030 - INFO - Initializing browser...
+2025-07-03 18:23:01,791 - INFO - Browser initialized successfully
+2025-07-03 18:23:01,793 - INFO - Discovering competitions from: https://www.aussiecomps.com/
+2025-07-03 18:23:03,939 - INFO - Found 30 unique competitions
+2025-07-03 18:23:03,952 - INFO - 
+============================================================
+2025-07-03 18:23:03,952 - INFO - Processing competition 1/2
+2025-07-03 18:23:03,952 - INFO - ============================================================
+2025-07-03 18:23:03,953 - INFO - Processing competition: Win 1 of 2 Collectible Red Poppy $2 Coins OR a Collectible War Heroes $1 Coin
+2025-07-03 18:23:03,953 - INFO - URL: https://www.aussiecomps.com/index.php?id=24729&cat_id=0&p=&search=#onads
+2025-07-03 18:23:04,521 - INFO - Found entry link: '' -> https://aussiecomps.com/comps/upload/24729_1_ACprize.jpg
+2025-07-03 18:23:04,521 - INFO - Following entry flow to: https://aussiecomps.com/comps/upload/24729_1_ACprize.jpg
+2025-07-03 18:23:06,771 - INFO - Trying CV detection as fallback
+2025-07-03 18:23:06,967 - INFO - Analyzing image with CV: screenshots/cv_detection_1751530986.png
+2025-07-03 18:23:07,012 - INFO - CV detected 0 potential form fields
+2025-07-03 18:23:07,013 - INFO - No form fields found on entry page
+2025-07-03 18:23:09,064 - INFO - 
+============================================================
+2025-07-03 18:23:09,064 - INFO - Processing competition 2/2
+2025-07-03 18:23:09,065 - INFO - ============================================================
+2025-07-03 18:23:09,065 - INFO - Processing competition: Win 1 of 5 Cubot P90 Smartphones
+2025-07-03 18:23:09,065 - INFO - URL: https://www.aussiecomps.com/index.php?id=24763&cat_id=0&p=&search=#onads
+2025-07-03 18:23:09,826 - INFO - Found entry link: '' -> https://aussiecomps.com/comps/upload/24763_1_ACprize.jpg
+2025-07-03 18:23:09,826 - INFO - Following entry flow to: https://aussiecomps.com/comps/upload/24763_1_ACprize.jpg
+2025-07-03 18:23:12,103 - INFO - Trying CV detection as fallback
+2025-07-03 18:23:12,265 - INFO - Analyzing image with CV: screenshots/cv_detection_1751530992.png
+2025-07-03 18:23:12,411 - INFO - CV detected 8 potential form fields
+2025-07-03 18:23:12,412 - INFO - Found 8 form fields via CV
+2025-07-03 18:23:12,413 - INFO - Filled 0 out of 8 fields
+2025-07-03 18:23:12,413 - WARNING - No fields were filled
+2025-07-03 18:23:14,436 - INFO - 
+============================================================
+2025-07-03 18:23:14,436 - INFO - SUMMARY: 0/2 competitions processed successfully
+2025-07-03 18:23:14,436 - INFO - ============================================================
+2025-07-03 18:23:14,639 - INFO - Browser closed
+2025-07-03 18:31:36,823 - INFO - Configuration loaded from config/config.json
+2025-07-03 18:31:36,823 - INFO - Initializing browser...
+2025-07-03 18:31:37,548 - INFO - Browser initialized successfully
+2025-07-03 18:31:37,549 - INFO - Discovering competitions from: https://www.aussiecomps.com/
+2025-07-03 18:31:39,669 - INFO - Found 30 unique competitions
+2025-07-03 18:31:39,679 - INFO - 
+============================================================
+2025-07-03 18:31:39,679 - INFO - Processing competition 1/1
+2025-07-03 18:31:39,679 - INFO - ============================================================
+2025-07-03 18:31:39,680 - INFO - Processing competition: Win 1 of 2 Collectible Red Poppy $2 Coins OR a Collectible War Heroes $1 Coin
+2025-07-03 18:31:39,680 - INFO - URL: https://www.aussiecomps.com/index.php?id=24729&cat_id=0&p=&search=#onads
+2025-07-03 18:31:40,296 - INFO - Found ps/ entry link: '' -> https://www.aussiecomps.com/ps/15595
+2025-07-03 18:31:40,297 - INFO - Following entry flow to: https://www.aussiecomps.com/ps/15595
+2025-07-03 18:31:47,084 - INFO - Found field: first_name (name: First-Name, label: ) [hidden]
+2025-07-03 18:31:47,111 - INFO - Found field: last_name (name: Last-Name, label: ) [hidden]
+2025-07-03 18:31:47,139 - INFO - Found field: postal_code (name: Postcode, label: ) [hidden]
+2025-07-03 18:31:47,174 - INFO - Found field: email (name: email, label: ) [hidden]
+2025-07-03 18:31:47,207 - INFO - Found field: phone (name: Phone-Number, label: ) [hidden]
+2025-07-03 18:31:47,259 - INFO - Found field: first_name (name: First-Name, label: ) [hidden]
+2025-07-03 18:31:47,284 - INFO - Found field: last_name (name: Last-Name, label: ) [hidden]
+2025-07-03 18:31:47,315 - INFO - Found field: email (name: email, label: ) [hidden]
+2025-07-03 18:31:47,349 - INFO - Found field: phone (name: Phone-Number, label: ) [hidden]
+2025-07-03 18:31:47,382 - INFO - Found field: postal_code (name: Postcode, label: ) [hidden]
+2025-07-03 18:31:47,382 - ERROR - Error following entry flow: 'ImprovedCompetitionEntry' object has no attribute '_detect_iframe_fields'
+2025-07-03 18:31:47,383 - INFO - [FAILED] Failed to enter competition: Win 1 of 2 Collectible Red Poppy $2 Coins OR a Collectible War Heroes $1 Coin
+2025-07-03 18:31:49,403 - INFO - 
+============================================================
+2025-07-03 18:31:49,403 - INFO - SUMMARY: 0/1 competitions processed successfully
+2025-07-03 18:31:49,403 - INFO - ============================================================
+2025-07-03 18:31:49,536 - INFO - Browser closed
+2025-07-03 18:33:05,358 - INFO - Configuration loaded from config/config.json
+2025-07-03 18:33:05,358 - INFO - Initializing browser...
+2025-07-03 18:33:06,103 - INFO - Browser initialized successfully
+2025-07-03 18:33:06,104 - INFO - Discovering competitions from: https://www.aussiecomps.com/
+2025-07-03 18:33:08,209 - INFO - Found 30 unique competitions
+2025-07-03 18:33:08,221 - INFO - 
+============================================================
+2025-07-03 18:33:08,222 - INFO - Processing competition 1/1
+2025-07-03 18:33:08,222 - INFO - ============================================================
+2025-07-03 18:33:08,222 - INFO - Processing competition: Win a 3m x 3m PERGOLUX Pergola
+2025-07-03 18:33:08,222 - INFO - URL: https://www.aussiecomps.com/index.php?id=24734&cat_id=0&p=&search=#onads
+2025-07-03 18:33:08,946 - INFO - Found ps/ entry link: '' -> https://www.aussiecomps.com/ps/15595
+2025-07-03 18:33:08,946 - INFO - Following entry flow to: https://www.aussiecomps.com/ps/15595
+2025-07-03 18:33:15,516 - INFO - Found field: first_name (name: First-Name, label: ) [hidden]
+2025-07-03 18:33:15,560 - INFO - Found field: last_name (name: Last-Name, label: ) [hidden]
+2025-07-03 18:33:15,619 - INFO - Found field: postal_code (name: Postcode, label: ) [hidden]
+2025-07-03 18:33:15,680 - INFO - Found field: email (name: email, label: ) [hidden]
+2025-07-03 18:33:15,743 - INFO - Found field: phone (name: Phone-Number, label: ) [hidden]
+2025-07-03 18:33:15,837 - INFO - Found field: first_name (name: First-Name, label: ) [hidden]
+2025-07-03 18:33:15,873 - INFO - Found field: last_name (name: Last-Name, label: ) [hidden]
+2025-07-03 18:33:15,909 - INFO - Found field: email (name: email, label: ) [hidden]
+2025-07-03 18:33:15,941 - INFO - Found field: phone (name: Phone-Number, label: ) [hidden]
+2025-07-03 18:33:15,971 - INFO - Found field: postal_code (name: Postcode, label: ) [hidden]
+2025-07-03 18:33:15,978 - INFO - Found 1 iframes to check
+2025-07-03 18:33:15,983 - INFO - Checking iframe 1: https://app.viralsweep.com/vrlswp/widget/d66a62-208035?rndid=208035_766825&framed=1&vs_eid_hash=&ref=&source_url=https%3A%2F%2Fwww.coinxchange.com.au%2F%3Ffbclid%3DIwY2xjawGzn35leHRuA2FlbQIxMAABHfeSShbLrjSKHAFoW4j7qqcNMYzizgXo8fCtmdZn3YpEXG3-3-ForewRHQ_aem_o5FYE3vdAv_hX8P773yMBg%23f795993&hsh=f795993&hash=#f795993
+2025-07-03 18:33:15,983 - INFO - Found competition platform iframe: https://app.viralsweep.com/vrlswp/widget/d66a62-208035?rndid=208035_766825&framed=1&vs_eid_hash=&ref=&source_url=https%3A%2F%2Fwww.coinxchange.com.au%2F%3Ffbclid%3DIwY2xjawGzn35leHRuA2FlbQIxMAABHfeSShbLrjSKHAFoW4j7qqcNMYzizgXo8fCtmdZn3YpEXG3-3-ForewRHQ_aem_o5FYE3vdAv_hX8P773yMBg%23f795993&hsh=f795993&hash=#f795993
+2025-07-03 18:33:19,034 - INFO - Iframe 1 content: 8 forms, 38 inputs
+2025-07-03 18:33:19,094 - INFO - Found iframe field: first_name (name: first_name, label: )
+2025-07-03 18:33:19,124 - INFO - Found iframe field: last_name (name: last_name, label: )
+2025-07-03 18:33:19,162 - INFO - Found iframe field: email (name: email, label: )
+2025-07-03 18:33:19,195 - INFO - Found iframe field: phone (name: phone, label: )
+2025-07-03 18:33:19,232 - INFO - Found iframe field: postal_code (name: zip, label: )
+2025-07-03 18:33:19,273 - INFO - Found iframe field: terms (name: agree_to_rules, label: I agree to the official rules of the giveaway)
+2025-07-03 18:33:19,311 - INFO - Found iframe field: terms (name: 10628_1730940190, label: I agree to receive Email & SMS marketing from coinxchange)
+2025-07-03 18:33:19,346 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,379 - INFO - Found iframe field: text (name: referral-link, label: )
+2025-07-03 18:33:19,416 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,448 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,481 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,512 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,543 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,572 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,607 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,641 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,676 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,707 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,748 - INFO - Found iframe field: text (name: , label: )
+2025-07-03 18:33:19,783 - INFO - Found iframe field: text (name: file, label: )
+2025-07-03 18:33:19,788 - INFO - Found 31 form fields (10 DOM, 21 iframe)
+2025-07-03 18:33:19,789 - INFO - Attempting to fill field: first_name (label: '', name: 'First-Name')
+2025-07-03 18:33:19,789 - INFO - Field first_name is hidden, trying to make it visible
+2025-07-03 18:34:19,823 - WARNING - Field first_name is still hidden
+2025-07-03 18:34:49,833 - WARNING - Failed to fill first_name: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:34:49,834 - INFO - Attempting to fill field: last_name (label: '', name: 'Last-Name')
+2025-07-03 18:34:49,834 - INFO - Field last_name is hidden, trying to make it visible
+2025-07-03 18:35:49,857 - WARNING - Field last_name is still hidden
+2025-07-03 18:36:19,865 - WARNING - Failed to fill last_name: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:36:19,866 - INFO - Attempting to fill field: postal_code (label: '', name: 'Postcode')
+2025-07-03 18:36:19,867 - INFO - Field postal_code is hidden, trying to make it visible
+2025-07-03 18:37:19,885 - WARNING - Field postal_code is still hidden
+2025-07-03 18:37:49,903 - WARNING - Failed to fill postal_code: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:37:49,904 - INFO - Attempting to fill field: email (label: '', name: 'email')
+2025-07-03 18:37:49,904 - INFO - Field email is hidden, trying to make it visible
+2025-07-03 18:38:49,933 - WARNING - Field email is still hidden
+2025-07-03 18:39:19,946 - WARNING - Failed to fill email: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:39:19,946 - INFO - Attempting to fill field: phone (label: '', name: 'Phone-Number')
+2025-07-03 18:39:19,947 - INFO - Field phone is hidden, trying to make it visible
+2025-07-03 18:40:19,971 - WARNING - Field phone is still hidden
+2025-07-03 18:40:49,974 - WARNING - Failed to fill phone: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:40:49,975 - INFO - Attempting to fill field: first_name (label: '', name: 'First-Name')
+2025-07-03 18:40:49,976 - INFO - Field first_name is hidden, trying to make it visible
+2025-07-03 18:41:49,989 - WARNING - Field first_name is still hidden
+2025-07-03 18:42:20,003 - WARNING - Failed to fill first_name: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:42:20,004 - INFO - Attempting to fill field: last_name (label: '', name: 'Last-Name')
+2025-07-03 18:42:20,005 - INFO - Field last_name is hidden, trying to make it visible
+2025-07-03 18:43:20,030 - WARNING - Field last_name is still hidden
+2025-07-03 18:43:50,037 - WARNING - Failed to fill last_name: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:43:50,038 - INFO - Attempting to fill field: email (label: '', name: 'email')
+2025-07-03 18:43:50,038 - INFO - Field email is hidden, trying to make it visible
+2025-07-03 18:44:50,060 - WARNING - Field email is still hidden
+2025-07-03 18:45:20,072 - WARNING - Failed to fill email: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:45:20,072 - INFO - Attempting to fill field: phone (label: '', name: 'Phone-Number')
+2025-07-03 18:45:20,072 - INFO - Field phone is hidden, trying to make it visible
+2025-07-03 18:46:20,094 - WARNING - Field phone is still hidden
+2025-07-03 18:46:50,105 - WARNING - Failed to fill phone: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:46:50,106 - INFO - Attempting to fill field: postal_code (label: '', name: 'Postcode')
+2025-07-03 18:46:50,106 - INFO - Field postal_code is hidden, trying to make it visible
+2025-07-03 18:47:50,137 - WARNING - Field postal_code is still hidden
+2025-07-03 18:48:20,149 - WARNING - Failed to fill postal_code: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    57 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+2025-07-03 18:48:20,150 - INFO - Attempting to fill field: first_name (label: '', name: 'first_name')
+2025-07-03 18:48:20,245 - INFO - Typed first_name with: Benjamin
+2025-07-03 18:48:20,245 - INFO - Attempting to fill field: last_name (label: '', name: 'last_name')
+2025-07-03 18:48:20,315 - INFO - Typed last_name with: Wheeler
+2025-07-03 18:48:20,315 - INFO - Attempting to fill field: email (label: '', name: 'email')
+2025-07-03 18:48:20,422 - INFO - Typed email with: wbenjamin400@gmail.com
+2025-07-03 18:48:20,423 - INFO - Attempting to fill field: phone (label: '', name: 'phone')
+2025-07-03 18:48:20,510 - INFO - Typed phone with: +61407099391
+2025-07-03 18:48:20,510 - INFO - Attempting to fill field: postal_code (label: '', name: 'zip')
+2025-07-03 18:48:20,582 - INFO - Typed postal_code with: 2250
+2025-07-03 18:48:20,582 - INFO - Attempting to fill field: terms (label: 'I agree to the official rules of the giveaway', name: 'agree_to_rules')
+2025-07-03 18:48:20,640 - INFO - Set terms checkbox to: True
+2025-07-03 18:48:20,640 - INFO - Attempting to fill field: terms (label: 'I agree to receive Email & SMS marketing from coinxchange', name: '10628_1730940190')
+2025-07-03 18:48:20,705 - INFO - Set terms checkbox to: True
+2025-07-03 18:48:20,705 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,705 - INFO - Attempting to fill field: text (label: '', name: 'referral-link')
+2025-07-03 18:48:20,705 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,706 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,706 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,706 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,706 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: '')
+2025-07-03 18:48:20,707 - INFO - Attempting to fill field: text (label: '', name: 'file')
+2025-07-03 18:48:20,708 - INFO - Filled 7 out of 31 fields
+2025-07-03 18:48:20,852 - INFO - Form ready for submission (not submitting to avoid spam)
+2025-07-03 18:48:20,852 - INFO - [SUCCESS] Successfully entered competition: Win a 3m x 3m PERGOLUX Pergola
+2025-07-03 18:48:22,865 - INFO - 
+============================================================
+2025-07-03 18:48:22,865 - INFO - SUMMARY: 1/1 competitions processed successfully
+2025-07-03 18:48:22,865 - INFO - ============================================================
+2025-07-03 18:48:23,017 - INFO - Browser closed

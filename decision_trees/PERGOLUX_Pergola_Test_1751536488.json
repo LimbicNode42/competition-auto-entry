@@ -1,0 +1,137 @@
+{
+  "node_id": "entry_method_detection_1751536482",
+  "page_url": "https://www.aussiecomps.com/index.php?id=24734&cat_id=0&p=&search=#onads",
+  "screenshot_path": "screenshots/decision_entry_method_detection_1751536482.png",
+  "decision_type": "entry_method_detection",
+  "description": "Initial analysis",
+  "options": [
+    {
+      "type": "aussiecomps_entry",
+      "description": "Competition-specific ps/ link: https://www.aussiecomps.com/ps/15600",
+      "selector": "a[href=\"https://www.aussiecomps.com/ps/15600\"]",
+      "confidence": 0.98,
+      "url": "https://www.aussiecomps.com/ps/15600",
+      "priority": 1,
+      "option_id": 0
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "Generic ps/ link: https://www.aussiecomps.com/ps/15595",
+      "selector": "a[href=\"https://www.aussiecomps.com/ps/15595\"]",
+      "confidence": 0.85,
+      "url": "https://www.aussiecomps.com/ps/15595",
+      "priority": 2,
+      "option_id": 1
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "Generic ps/ link: https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg",
+      "selector": "a[class=\"classif_image\"][href=\"https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg\"]",
+      "confidence": 0.85,
+      "url": "https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg",
+      "priority": 2,
+      "option_id": 2
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "Generic ps/ link: https://www.instagram.com/aussiecomps/",
+      "selector": "a[href=\"https://www.instagram.com/aussiecomps/\"]",
+      "confidence": 0.85,
+      "url": "https://www.instagram.com/aussiecomps/",
+      "priority": 2,
+      "option_id": 3
+    }
+  ],
+  "chosen_option": {
+    "type": "aussiecomps_entry",
+    "description": "Generic ps/ link: https://www.instagram.com/aussiecomps/",
+    "selector": "a[href=\"https://www.instagram.com/aussiecomps/\"]",
+    "confidence": 0.85,
+    "url": "https://www.instagram.com/aussiecomps/",
+    "priority": 2,
+    "option_id": 3
+  },
+  "success": false,
+  "error_message": "Option 3 execution failed",
+  "timestamp": "2025-07-03 19:54:42.343672",
+  "retry_count": 0,
+  "children": [
+    {
+      "node_id": "social_media_actions_1751536487",
+      "page_url": "https://gleam.io/zYPeK/win-your-dream-pergola-for-free?gsr=zYPeK-H3uBet4JUO",
+      "screenshot_path": "screenshots/decision_social_media_actions_1751536487.png",
+      "decision_type": "social_media_actions",
+      "description": "Following entry_method_detection",
+      "options": [
+        {
+          "type": "social_media_action",
+          "description": "Social action: up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nFollow\n@https://www.instagram.com/pergolux.au\non Instagram\n\n\nhttps://instagram.com/https://www.instagram.com/pergolux.au\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnlock 5 entries for following @https://www.instagram.com/pergolux.au on Instagram\n\n\n\n\nFollow\n@https://www.instagram.com/pergolux.au\non Instagram\n\u00a0\n\n\n\n\n\n\n\n\n\nContinue\n\n\n\nCancel",
+          "selector": ".entry-method:nth-of-type(1), .entry-action:nth-of-type(1)",
+          "confidence": 0.8,
+          "action": "click",
+          "priority": 1,
+          "option_id": 0
+        },
+        {
+          "type": "social_media_action",
+          "description": "Social action: up to\n+2\n+2\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nComment on this Instagram Post\n\n\n\n\n\n\n\n\n\n\n\nUnlock 2 entries for commenting on this Post.\n\n\n\n\nComment on this Instagram Post\n\u00a0\n\n\n\n\n\n\n\n\n\nContinue\n\n\n\nCancel",
+          "selector": ".entry-method:nth-of-type(3), .entry-action:nth-of-type(3)",
+          "confidence": 0.8,
+          "action": "click",
+          "priority": 1,
+          "option_id": 1
+        },
+        {
+          "type": "social_media_action",
+          "description": "Social action: up to\n+2\n+2\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nRefer Friends via Link For Extra Entries\n\n\n\n\n\n\n\nLog in using...\n\n\n\n\n\n\nLogin with\n\nEmail\n\n\n\n\n\nLogin with\n\nGoogle\n\n\n\n\n\nLogin with\n\nFacebook\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn order to contact you we need an email\n\n\n\n\n\n\n\n\nFirst Name\n\n\nRequired\n\n\n\n\n\nLast Name\n\n\nRequired\n\n\n\n\n\n\n\nEmail\n\n\nRequired\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotify me of other Pergolux Competitions\n(optional)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSave\n\n\n\n\n\nCancel",
+          "selector": ".entry-method:nth-of-type(4), .entry-action:nth-of-type(4)",
+          "confidence": 0.8,
+          "action": "click",
+          "priority": 1,
+          "option_id": 2
+        },
+        {
+          "type": "social_media_action",
+          "description": "Social action: up to\n+10\n+10\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nGet 10 Bonus Entries For Completing Everything\n\n\n\n\n\n\n\n\nLog in using...\n\n\n\n\n\n\nLogin with\n\nEmail\n\n\n\n\n\nLogin with\n\nGoogle\n\n\n\n\n\nLogin with\n\nFacebook\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn order to contact you we need an email\n\n\n\n\n\n\n\n\nFirst Name\n\n\nRequired\n\n\n\n\n\nLast Name\n\n\nRequired\n\n\n\n\n\n\n\nEmail\n\n\nRequired\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotify me of other Pergolux Competitions\n(optional)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSave\n\n\n\n\n\nCancel",
+          "selector": ".entry-method:nth-of-type(5), .entry-action:nth-of-type(5)",
+          "confidence": 0.8,
+          "action": "click",
+          "priority": 1,
+          "option_id": 3
+        },
+        {
+          "type": "social_media_action",
+          "description": "Social action: Login with\n\nTwitter",
+          "selector": "button:has-text(\"Login with\n\nTwitter\"), a:has-text(\"Login with\n\nTwitter\")",
+          "confidence": 0.7,
+          "action": "click",
+          "priority": 2,
+          "option_id": 4
+        },
+        {
+          "type": "social_media_action",
+          "description": "Social action: up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter",
+          "selector": "button:has-text(\"up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter\"), a:has-text(\"up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter\")",
+          "confidence": 0.7,
+          "action": "click",
+          "priority": 2,
+          "option_id": 5
+        }
+      ],
+      "chosen_option": {
+        "type": "social_media_action",
+        "description": "Social action: up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter",
+        "selector": "button:has-text(\"up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter\"), a:has-text(\"up to\n+5\n+5\nper hour\nper day\nper week\nleft\n\n\n\n\n\n\nSubscribe to Our Newsletter\")",
+        "confidence": 0.7,
+        "action": "click",
+        "priority": 2,
+        "option_id": 5
+      },
+      "success": false,
+      "error_message": "Option 5 execution failed",
+      "timestamp": "2025-07-03 19:54:48.018041",
+      "retry_count": 0,
+      "children": []
+    }
+  ]
+}

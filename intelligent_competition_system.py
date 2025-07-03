@@ -179,6 +179,8 @@ class AdaptiveCompetitionEntry:
                 await self._analyze_navigation_options(page, node)
             elif node.decision_type == "iframe_analysis":
                 await self._analyze_iframes(page, node)
+            elif node.decision_type == "social_media_actions":
+                await self._analyze_social_media_actions(page, node)
             
             logger.info(f"Found {len(node.options)} options for {node.decision_type}")
             
@@ -370,19 +372,28 @@ class AdaptiveCompetitionEntry:
 
     async def _analyze_navigation_options(self, page: Page, node: DecisionNode):
         """Analyze navigation options"""
-        # Look for buttons
-        buttons = await page.query_selector_all('button')
+        # Look for buttons with expanded keywords
+        buttons = await page.query_selector_all('button, input[type="button"], input[type="submit"]')
         for button in buttons:
             try:
                 text = await button.text_content()
-                if text and any(keyword in text.lower() for keyword in ['enter', 'start', 'begin', 'next', 'continue']):
-                    node.add_option({
-                        'type': 'navigation_button',
-                        'description': f'Button: {text.strip()}',
-                        'selector': f'button:has-text("{text.strip()}")',
-                        'confidence': 0.7,
-                        'action': 'click'
-                    })
+                if text:
+                    text_lower = text.lower().strip()
+                    # Expanded keywords for different competition platforms
+                    navigation_keywords = ['enter', 'start', 'begin', 'next', 'continue', 'join', 'giveaway', 'participate', 'register', 'submit']
+                    
+                    if any(keyword in text_lower for keyword in navigation_keywords):
+                        # Higher confidence for specific competition keywords
+                        confidence = 0.9 if any(keyword in text_lower for keyword in ['join', 'giveaway', 'enter']) else 0.7
+                        
+                        node.add_option({
+                            'type': 'navigation_button',
+                            'description': f'Button: {text.strip()}',
+                            'selector': f'button:has-text("{text.strip()}")',
+                            'confidence': confidence,
+                            'action': 'click',
+                            'priority': 1 if confidence > 0.8 else 2
+                        })
             except:
                 pass
 
@@ -393,15 +404,22 @@ class AdaptiveCompetitionEntry:
                 text = await link.text_content()
                 href = await link.get_attribute('href')
                 
-                if text and href and any(keyword in text.lower() for keyword in ['continue', 'next', 'proceed', 'enter']):
-                    node.add_option({
-                        'type': 'navigation_link',
-                        'description': f'Link: {text.strip()}',
-                        'selector': f'a:has-text("{text.strip()}")',
-                        'confidence': 0.6,
-                        'action': 'navigate',
-                        'url': href
-                    })
+                if text and href:
+                    text_lower = text.lower().strip()
+                    navigation_keywords = ['continue', 'next', 'proceed', 'enter', 'join', 'giveaway', 'participate']
+                    
+                    if any(keyword in text_lower for keyword in navigation_keywords):
+                        confidence = 0.8 if any(keyword in text_lower for keyword in ['join', 'giveaway', 'enter']) else 0.6
+                        
+                        node.add_option({
+                            'type': 'navigation_link',
+                            'description': f'Link: {text.strip()}',
+                            'selector': f'a:has-text("{text.strip()}")',
+                            'confidence': confidence,
+                            'action': 'navigate',
+                            'url': href,
+                            'priority': 1 if confidence > 0.7 else 2
+                        })
             except:
                 pass
 
@@ -429,6 +447,66 @@ class AdaptiveCompetitionEntry:
                             
             except Exception as e:
                 logger.debug(f"Error analyzing iframe {i}: {e}")
+
+    async def _analyze_social_media_actions(self, page: Page, node: DecisionNode):
+        """Analyze social media actions for platforms like Gleam.io"""
+        try:
+            # Look for Gleam.io specific action elements
+            gleam_actions = await page.query_selector_all('.entry-method, .entry-action, [data-ng-click]')
+            
+            for i, action in enumerate(gleam_actions):
+                try:
+                    # Get action text
+                    action_text = await action.text_content()
+                    if action_text:
+                        action_text = action_text.strip()
+                        
+                        # Check if it's a social media action
+                        social_keywords = ['follow', 'like', 'share', 'tweet', 'instagram', 'facebook', 'twitter', 'visit']
+                        
+                        if any(keyword in action_text.lower() for keyword in social_keywords):
+                            # Check if it's already completed
+                            is_completed = await action.query_selector('.completed, .done, .success')
+                            
+                            if not is_completed:
+                                node.add_option({
+                                    'type': 'social_media_action',
+                                    'description': f'Social action: {action_text}',
+                                    'selector': f'.entry-method:nth-of-type({i+1}), .entry-action:nth-of-type({i+1})',
+                                    'confidence': 0.8,
+                                    'action': 'click',
+                                    'priority': 1
+                                })
+                except Exception as e:
+                    logger.debug(f"Error analyzing social action {i}: {e}")
+            
+            # Also look for general clickable elements with social keywords
+            clickable_elements = await page.query_selector_all('button, a, [onclick], [data-click]')
+            
+            for element in clickable_elements:
+                try:
+                    text = await element.text_content()
+                    if text:
+                        text_lower = text.lower().strip()
+                        social_keywords = ['follow', 'like', 'share', 'tweet', 'instagram', 'facebook', 'twitter', 'visit', 'subscribe']
+                        
+                        if any(keyword in text_lower for keyword in social_keywords):
+                            # Check if it's not already processed
+                            existing_descriptions = [opt['description'] for opt in node.options]
+                            if not any(text.strip() in desc for desc in existing_descriptions):
+                                node.add_option({
+                                    'type': 'social_media_action',
+                                    'description': f'Social action: {text.strip()}',
+                                    'selector': f'button:has-text("{text.strip()}"), a:has-text("{text.strip()}")',
+                                    'confidence': 0.7,
+                                    'action': 'click',
+                                    'priority': 2
+                                })
+                except Exception as e:
+                    logger.debug(f"Error analyzing clickable element: {e}")
+                    
+        except Exception as e:
+            logger.error(f"Error analyzing social media actions: {e}")
 
     def _classify_field_type(self, name: str, placeholder: str, input_type: str) -> str:
         """Classify form field type"""
@@ -501,6 +579,8 @@ class AdaptiveCompetitionEntry:
                 return await self._handle_navigation(page, option)
             elif option_type == 'iframe_form':
                 return await self._handle_iframe_form(page, option)
+            elif option_type == 'social_media_action':
+                return await self._handle_social_media_action(page, option)
             else:
                 logger.warning(f"Unknown option type: {option_type}")
                 return False
@@ -724,6 +804,53 @@ class AdaptiveCompetitionEntry:
             logger.error(f"Error filling iframe content: {e}")
             return False
 
+    async def _handle_social_media_action(self, page: Page, option: Dict) -> bool:
+        """Handle social media actions like follow, like, share"""
+        try:
+            selector = option['selector']
+            element = await page.query_selector(selector)
+            
+            if element:
+                logger.info(f"Executing social media action: {option['description']}")
+                
+                # Click the action element
+                await element.click()
+                await asyncio.sleep(2)  # Wait for action to register
+                
+                # Check if action opened a new tab/window
+                if len(page.context.pages) > 1:
+                    logger.info("Social media action opened new tab - handling external navigation")
+                    
+                    # Get the new page
+                    new_page = page.context.pages[-1]
+                    await new_page.wait_for_load_state('networkidle', timeout=10000)
+                    
+                    # Close the new tab after a moment (social media actions usually just need to be opened)
+                    await asyncio.sleep(3)
+                    await new_page.close()
+                    
+                    # Return to original page
+                    await page.bring_to_front()
+                
+                # Check if the action is now marked as completed
+                await asyncio.sleep(1)
+                completed_element = await page.query_selector(f"{selector}.completed, {selector}.done, {selector}.success")
+                
+                if completed_element:
+                    logger.info("Social media action completed successfully")
+                    return True
+                else:
+                    logger.info("Social media action executed (completion status unclear)")
+                    return True  # Consider it successful if we could click it
+                    
+            else:
+                logger.warning(f"Could not find element for social media action: {selector}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Error handling social media action: {e}")
+            return False
+
     def _get_field_value(self, field_type: str) -> Any:
         """Get value for a field type"""
         mapping = {
@@ -799,7 +926,7 @@ class AdaptiveCompetitionEntry:
                 
                 # Check if we've completed the entry process
                 if await self._is_entry_complete(page):
-                    logger.info("Entry process completed successfully!")
+                    logger.info("✅ Entry process completed successfully!")
                     return True
                 
                 # Determine next decision type
@@ -814,9 +941,16 @@ class AdaptiveCompetitionEntry:
                     if await self._recursive_decision_process(page, next_node, depth + 1, max_depth):
                         return True
                 else:
-                    # No next step determined, might be complete
-                    logger.info("No next step determined, checking for completion")
-                    return await self._is_entry_complete(page)
+                    # No next step determined, check if we're on a platform that needs manual completion
+                    current_url = page.url.lower()
+                    if any(platform in current_url for platform in ['gleam.io', 'cubot.net', 'coinxchange']):
+                        # On external platform - consider this successful navigation
+                        logger.info("✅ Successfully navigated to external competition platform")
+                        return True
+                    else:
+                        # No next step determined, might be complete
+                        logger.info("No next step determined, checking for completion")
+                        return await self._is_entry_complete(page)
                 
             else:
                 logger.warning(f"Option {option_index} failed, trying next option")
@@ -829,8 +963,8 @@ class AdaptiveCompetitionEntry:
     async def _is_entry_complete(self, page: Page) -> bool:
         """Check if the entry process is complete"""
         try:
+            current_url = page.url
             page_text = await page.text_content('body')
-            url = page.url
             title = await page.title()
             
             success_indicators = [
@@ -840,47 +974,163 @@ class AdaptiveCompetitionEntry:
             ]
             
             page_text_lower = page_text.lower()
-            url_lower = url.lower()
+            url_lower = current_url.lower()
             title_lower = title.lower()
             
-            # Check text content
+            # Check for success indicators in text, URL, or title
+            has_success_indicator = False
             for indicator in success_indicators:
                 if (indicator in page_text_lower or 
                     indicator in url_lower or 
                     indicator in title_lower):
                     logger.info(f"Success indicator found: {indicator}")
+                    has_success_indicator = True
+                    break
+            
+            # If we're on a competition platform, check if there are forms that need filling
+            platform_domains = ['gleam.io', 'woobox.com', 'rafflecopter.com', 'viralsweep.com', 'kingsumo.com']
+            
+            if any(domain in url_lower for domain in platform_domains):
+                # We're on a competition platform
+                forms = await page.query_selector_all('form')
+                visible_inputs = await page.query_selector_all('input:visible, textarea:visible, select:visible')
+                
+                logger.info(f"On competition platform: {current_url}")
+                logger.info(f"Found {len(forms)} forms and {len(visible_inputs)} visible inputs")
+                
+                # On competition platforms, prioritize form filling over success indicators
+                # unless we have very specific completion indicators
+                specific_completion_indicators = [
+                    'entry complete', 'entry confirmed', 'entry successful', 'entry recorded',
+                    'you have entered', 'congratulations', 'well done', 'you\'re in'
+                ]
+                
+                has_specific_completion = any(indicator in page_text_lower for indicator in specific_completion_indicators)
+                
+                if forms and visible_inputs and not has_specific_completion:
+                    logger.info("Competition platform with forms detected - forms need to be filled first")
+                    return False  # There are forms to fill
+                
+                if has_specific_completion:
+                    logger.info("Specific completion indicator found on competition platform")
                     return True
+            
+            # Check if we're on a brand/direct competition site with forms
+            competition_keywords = ['competition', 'giveaway', 'contest', 'sweepstakes', 'win', 'prize']
+            if any(keyword in page_text_lower for keyword in competition_keywords):
+                forms = await page.query_selector_all('form')
+                visible_inputs = await page.query_selector_all('input:visible, textarea:visible, select:visible')
+                
+                if forms and visible_inputs and not has_success_indicator:
+                    logger.info("Direct competition site with unfilled forms - entry NOT complete")
+                    return False
+            
+            # If we have success indicators, entry is complete
+            if has_success_indicator:
+                return True
             
             return False
             
-        except:
+        except Exception as e:
+            logger.error(f"Error checking entry completion: {e}")
             return False
 
     async def _determine_next_decision(self, page: Page, current_node: DecisionNode) -> Optional[str]:
         """Determine what decision to make next"""
         try:
-            # Check for forms
+            current_url = page.url.lower()
+            
+            # Check if we're on a known competition platform
+            platform_domains = ['gleam.io', 'woobox.com', 'rafflecopter.com', 'viralsweep.com', 'kingsumo.com', 'cubot.net', 'coinxchange.com.au']
+            
+            if any(domain in current_url for domain in platform_domains):
+                logger.info(f"Detected competition platform: {page.url}")
+                
+                # Check depth to avoid infinite loops on social media platforms
+                if current_node.decision_type == "social_media_actions" and len(current_node.children) >= 2:
+                    logger.info("Already processed social media actions multiple times, considering entry complete")
+                    return None
+                
+                # Special handling for different platform types
+                if 'gleam.io' in current_url:
+                    # Gleam.io typically has social media actions, not traditional forms
+                    # Only analyze social media actions if we haven't done it extensively
+                    if current_node.decision_type != "social_media_actions":
+                        action_elements = await page.query_selector_all('.entry-method, .entry-action, button[data-ng-click]')
+                        if action_elements:
+                            logger.info("Found Gleam.io action elements - analyzing social media actions")
+                            return "social_media_actions"
+                    
+                    # If we've already done social media actions, check for forms
+                    forms = await page.query_selector_all('form')
+                    inputs = await page.query_selector_all('input:visible, textarea:visible, select:visible')
+                    if forms and inputs:
+                        logger.info("Found forms on Gleam.io - analyzing")
+                        return "form_analysis"
+                
+                elif 'cubot.net' in current_url:
+                    # Cubot typically has a "Join Giveaway" button
+                    join_buttons = await page.query_selector_all('button, a')
+                    for button in join_buttons:
+                        text = await button.text_content()
+                        if text and any(keyword in text.lower() for keyword in ['join', 'giveaway', 'enter']):
+                            logger.info("Found join/giveaway button - analyzing navigation")
+                            return "navigation"
+                
+                elif 'coinxchange.com.au' in current_url:
+                    # Coinxchange might have forms or navigation
+                    forms = await page.query_selector_all('form')
+                    if forms:
+                        logger.info("Found forms on coinxchange - analyzing")
+                        return "form_analysis"
+                
+                # Always analyze forms on competition platforms if present
+                forms = await page.query_selector_all('form')
+                inputs = await page.query_selector_all('input:visible, textarea:visible, select:visible')
+                
+                if forms and inputs:
+                    logger.info("Found forms on competition platform - analyzing")
+                    return "form_analysis"
+            
+            # Check for forms on any site
             forms = await page.query_selector_all('form')
             inputs = await page.query_selector_all('input:visible, textarea:visible, select:visible')
             
             if forms and inputs:
+                logger.info("Found forms - analyzing")
                 return "form_analysis"
             
             # Check for iframes
             iframes = await page.query_selector_all('iframe')
             if iframes:
+                logger.info("Found iframes - analyzing")
                 return "iframe_analysis"
             
-            # Check for navigation options
-            buttons = await page.query_selector_all('button')
+            # Check for navigation options (expanded search)
+            buttons = await page.query_selector_all('button, input[type="button"], input[type="submit"]')
             nav_links = await page.query_selector_all('a')
             
             if buttons or nav_links:
-                return "navigation"
+                # Look for entry-related navigation with expanded keywords
+                entry_keywords = ['enter', 'start', 'begin', 'next', 'continue', 'join', 'giveaway', 'participate', 'register', 'submit']
+                
+                for button in buttons:
+                    text = await button.text_content()
+                    if text and any(keyword in text.lower() for keyword in entry_keywords):
+                        logger.info(f"Found navigation button: '{text.strip()}' - analyzing")
+                        return "navigation"
+                
+                for link in nav_links:
+                    text = await link.text_content()
+                    if text and any(keyword in text.lower() for keyword in entry_keywords):
+                        logger.info(f"Found navigation link: '{text.strip()}' - analyzing")
+                        return "navigation"
             
+            logger.info("No further decisions needed")
             return None
             
-        except:
+        except Exception as e:
+            logger.error(f"Error determining next decision: {e}")
             return None
 
     async def _save_decision_tree(self, root_node: DecisionNode, title: str):

@@ -1,0 +1,41 @@
+{
+  "node_id": "entry_method_detection_1751538984",
+  "page_url": "https://www.aussiecomps.com/index.php?id=24706&cat_id=0&p=&search=#onads",
+  "screenshot_path": "screenshots/decision_entry_method_detection_1751538984.png",
+  "decision_type": "entry_method_detection",
+  "description": "Initial analysis",
+  "options": [
+    {
+      "type": "aussiecomps_entry",
+      "description": "Generic ps/ link: https://www.aussiecomps.com/ps/15595",
+      "selector": "a[href=\"https://www.aussiecomps.com/ps/15595\"]",
+      "confidence": 0.85,
+      "url": "https://www.aussiecomps.com/ps/15595",
+      "priority": 2,
+      "option_id": 0
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "Generic ps/ link: https://www.instagram.com/aussiecomps/",
+      "selector": "a[href=\"https://www.instagram.com/aussiecomps/\"]",
+      "confidence": 0.85,
+      "url": "https://www.instagram.com/aussiecomps/",
+      "priority": 2,
+      "option_id": 1
+    }
+  ],
+  "chosen_option": {
+    "type": "aussiecomps_entry",
+    "description": "Generic ps/ link: https://www.aussiecomps.com/ps/15595",
+    "selector": "a[href=\"https://www.aussiecomps.com/ps/15595\"]",
+    "confidence": 0.85,
+    "url": "https://www.aussiecomps.com/ps/15595",
+    "priority": 2,
+    "option_id": 0
+  },
+  "success": true,
+  "error_message": null,
+  "timestamp": "2025-07-03 20:36:24.450008",
+  "retry_count": 0,
+  "children": []
+}
