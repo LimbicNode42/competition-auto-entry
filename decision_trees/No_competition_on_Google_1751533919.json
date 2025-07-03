@@ -1,0 +1,30 @@
+{
+  "node_id": "entry_method_detection_1751533919",
+  "page_url": "https://www.google.com/",
+  "screenshot_path": "screenshots/decision_entry_method_detection_1751533919.png",
+  "decision_type": "entry_method_detection",
+  "description": "Initial analysis",
+  "options": [
+    {
+      "type": "direct_form",
+      "description": "Direct form with 11 fields",
+      "selector": "form:nth-of-type(1)",
+      "confidence": 0.8,
+      "priority": 2,
+      "option_id": 0
+    }
+  ],
+  "chosen_option": {
+    "type": "direct_form",
+    "description": "Direct form with 11 fields",
+    "selector": "form:nth-of-type(1)",
+    "confidence": 0.8,
+    "priority": 2,
+    "option_id": 0
+  },
+  "success": false,
+  "error_message": "Option 0 execution failed",
+  "timestamp": "2025-07-03 19:11:59.484327",
+  "retry_count": 0,
+  "children": []
+}

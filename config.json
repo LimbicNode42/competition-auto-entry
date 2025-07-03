@@ -1,0 +1,25 @@
+{
+    "personal_data": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "phone": "555-0123",
+        "address": "123 Main St",
+        "city": "Anytown",
+        "postcode": "12345",
+        "age": "25",
+        "country": "United Kingdom"
+    },
+    "competition_sources": [
+        "https://www.competitioncloud.co.uk"
+    ],
+    "entry_limits": {
+        "max_per_day": 10,
+        "delay_between_entries": 30
+    },
+    "safety_settings": {
+        "require_vision_validation": true,
+        "require_terms_check": true,
+        "max_retry_attempts": 3
+    }
+}

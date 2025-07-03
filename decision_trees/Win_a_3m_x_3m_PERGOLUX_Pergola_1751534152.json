@@ -1,0 +1,59 @@
+{
+  "node_id": "entry_method_detection_1751534147",
+  "page_url": "https://www.aussiecomps.com/index.php?id=24734&cat_id=0&p=&search=#onads",
+  "screenshot_path": "screenshots/decision_entry_method_detection_1751534147.png",
+  "decision_type": "entry_method_detection",
+  "description": "Initial analysis",
+  "options": [
+    {
+      "type": "aussiecomps_entry",
+      "description": "AussieComps ps/ link: https://www.aussiecomps.com/ps/15595",
+      "selector": "a[href=\"https://www.aussiecomps.com/ps/15595\"]",
+      "confidence": 0.95,
+      "url": "https://www.aussiecomps.com/ps/15595",
+      "priority": 1,
+      "option_id": 0
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "AussieComps ps/ link: https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg",
+      "selector": "a[class=\"classif_image\"][href=\"https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg\"]",
+      "confidence": 0.95,
+      "url": "https://aussiecomps.com/comps/upload/24734_1_ACprize.jpg",
+      "priority": 1,
+      "option_id": 1
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "AussieComps ps/ link: https://www.aussiecomps.com/ps/15600",
+      "selector": "a[href=\"https://www.aussiecomps.com/ps/15600\"]",
+      "confidence": 0.95,
+      "url": "https://www.aussiecomps.com/ps/15600",
+      "priority": 1,
+      "option_id": 2
+    },
+    {
+      "type": "aussiecomps_entry",
+      "description": "AussieComps ps/ link: https://www.instagram.com/aussiecomps/",
+      "selector": "a[href=\"https://www.instagram.com/aussiecomps/\"]",
+      "confidence": 0.95,
+      "url": "https://www.instagram.com/aussiecomps/",
+      "priority": 1,
+      "option_id": 3
+    }
+  ],
+  "chosen_option": {
+    "type": "aussiecomps_entry",
+    "description": "AussieComps ps/ link: https://www.aussiecomps.com/ps/15595",
+    "selector": "a[href=\"https://www.aussiecomps.com/ps/15595\"]",
+    "confidence": 0.95,
+    "url": "https://www.aussiecomps.com/ps/15595",
+    "priority": 1,
+    "option_id": 0
+  },
+  "success": true,
+  "error_message": null,
+  "timestamp": "2025-07-03 19:15:47.984941",
+  "retry_count": 0,
+  "children": []
+}
